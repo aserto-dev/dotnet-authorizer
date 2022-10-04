@@ -1,0 +1,27 @@
+<Project>
+  <PropertyGroup>
+    <Product>Aserto.Grpc</Product>
+    <Copyright>Aserto® Inc.</Copyright>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <Authors>Aserto</Authors>
+    <PackageTags>aserto;authorization;opa;open policy agent</PackageTags>
+    <PackageIcon>aserto-brandmark-color.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/aserto-dev/dotnet-authorizer/</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://www.aserto.com/</PackageProjectUrl>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageReleaseNotes>
+      https://docs.aserto.com
+    </PackageReleaseNotes>
+  </PropertyGroup>
+
+  <!--MinVer properties-->
+  <PropertyGroup>
+    <MinVerTagPrefix>v</MinVerTagPrefix>
+    <MinVerDefaultPreReleasePhase>preview</MinVerDefaultPreReleasePhase>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../build/aserto-brandmark-color.png" Pack="true" Visible="false" PackagePath=""/>
+  </ItemGroup>
+</Project>

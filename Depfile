@@ -1,0 +1,16 @@
+---
+go:
+  buf:
+    importPath: "github.com/bufbuild/buf/cmd/buf"
+    version: "v1.3.1"
+bin:
+  dotnet:
+    url: 'https://dotnetcli.azureedge.net/dotnet/Sdk/{{.Version}}/dotnet-sdk-{{.Version}}-{{if eq .OS "darwin"}}osx{{else}}{{.OS}}{{end}}-x64.tar.gz'
+    version: "5.0.302"
+    sha:
+      linux-amd64: "92b07eecf4592e1b5e73eb82316b50b8d0e674238ec1f7d082544f5807f6bdf3"
+      darwin-amd64: "a754a5be6734c0338ef53e14a4e99922bc9fb93bc94de813dd4bca06131be916"
+      darwin-arm64: "a754a5be6734c0338ef53e14a4e99922bc9fb93bc94de813dd4bca06131be916"
+    entrypoint: "dotnet"
+    tgzPaths:
+    - "./*"
