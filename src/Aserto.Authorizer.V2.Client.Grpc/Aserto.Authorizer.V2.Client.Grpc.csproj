@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\build\common.props" />
+  <PropertyGroup>
+    <AssemblyTitle>Aserto.Authorizer.V2.Client.Grpc</AssemblyTitle>
+    <AssemblyName>Aserto.Authorizer.V2.Client.Grpc</AssemblyName>
+    <PackageId>Aserto.Authorizer.V2.Client.Grpc</PackageId>
+    <Product>Aserto.Authorizer.V2.Client.Grpc</Product>
+    <Description>Protocol buffers and gRPC client for Aserto Authorizer V2.</Description>
+    <PackageTags>aserto;authorization;opa;open policy agent; aserto authorizer</PackageTags>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp3.1;net5.0</TargetFrameworks>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <!-- since we're generating code from the vendored proto libraries there are CS0436 duplicate warnings thrown. The line below ignores these warnings. -->
+    <MSBuildWarningsAsMessages>$(MSBuildWarningsAsMessages);CS0436</MSBuildWarningsAsMessages>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <!-- Generate the nupkg package on Release build -->
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Api.CommonProtos" Version="2.3.0" />
+    <PackageReference Include="Grpc.Core" Version="2.38.1" />
+    <PackageReference Include="MinVer" PrivateAssets="All" Version="2.5.0" />
+  </ItemGroup>
+</Project>
