@@ -61,6 +61,14 @@ namespace Aserto.Authorizer.V2 {
     static readonly grpc::Marshaller<global::Aserto.Authorizer.V2.CompileRequest> __Marshaller_aserto_authorizer_v2_CompileRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Aserto.Authorizer.V2.CompileRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Aserto.Authorizer.V2.CompileResponse> __Marshaller_aserto_authorizer_v2_CompileResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Aserto.Authorizer.V2.CompileResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Aserto.Authorizer.V2.ListPoliciesRequest> __Marshaller_aserto_authorizer_v2_ListPoliciesRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Aserto.Authorizer.V2.ListPoliciesRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Aserto.Authorizer.V2.ListPoliciesResponse> __Marshaller_aserto_authorizer_v2_ListPoliciesResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Aserto.Authorizer.V2.ListPoliciesResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Aserto.Authorizer.V2.GetPolicyRequest> __Marshaller_aserto_authorizer_v2_GetPolicyRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Aserto.Authorizer.V2.GetPolicyRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Aserto.Authorizer.V2.GetPolicyResponse> __Marshaller_aserto_authorizer_v2_GetPolicyResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Aserto.Authorizer.V2.GetPolicyResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Aserto.Authorizer.V2.DecisionTreeRequest, global::Aserto.Authorizer.V2.DecisionTreeResponse> __Method_DecisionTree = new grpc::Method<global::Aserto.Authorizer.V2.DecisionTreeRequest, global::Aserto.Authorizer.V2.DecisionTreeResponse>(
@@ -93,6 +101,22 @@ namespace Aserto.Authorizer.V2 {
         "Compile",
         __Marshaller_aserto_authorizer_v2_CompileRequest,
         __Marshaller_aserto_authorizer_v2_CompileResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Aserto.Authorizer.V2.ListPoliciesRequest, global::Aserto.Authorizer.V2.ListPoliciesResponse> __Method_ListPolicies = new grpc::Method<global::Aserto.Authorizer.V2.ListPoliciesRequest, global::Aserto.Authorizer.V2.ListPoliciesResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ListPolicies",
+        __Marshaller_aserto_authorizer_v2_ListPoliciesRequest,
+        __Marshaller_aserto_authorizer_v2_ListPoliciesResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Aserto.Authorizer.V2.GetPolicyRequest, global::Aserto.Authorizer.V2.GetPolicyResponse> __Method_GetPolicy = new grpc::Method<global::Aserto.Authorizer.V2.GetPolicyRequest, global::Aserto.Authorizer.V2.GetPolicyResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetPolicy",
+        __Marshaller_aserto_authorizer_v2_GetPolicyRequest,
+        __Marshaller_aserto_authorizer_v2_GetPolicyResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -206,6 +230,46 @@ namespace Aserto.Authorizer.V2 {
       public virtual grpc::AsyncUnaryCall<global::Aserto.Authorizer.V2.CompileResponse> CompileAsync(global::Aserto.Authorizer.V2.CompileRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_Compile, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Aserto.Authorizer.V2.ListPoliciesResponse ListPolicies(global::Aserto.Authorizer.V2.ListPoliciesRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListPolicies(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Aserto.Authorizer.V2.ListPoliciesResponse ListPolicies(global::Aserto.Authorizer.V2.ListPoliciesRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ListPolicies, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Aserto.Authorizer.V2.ListPoliciesResponse> ListPoliciesAsync(global::Aserto.Authorizer.V2.ListPoliciesRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ListPoliciesAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Aserto.Authorizer.V2.ListPoliciesResponse> ListPoliciesAsync(global::Aserto.Authorizer.V2.ListPoliciesRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ListPolicies, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Aserto.Authorizer.V2.GetPolicyResponse GetPolicy(global::Aserto.Authorizer.V2.GetPolicyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetPolicy(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Aserto.Authorizer.V2.GetPolicyResponse GetPolicy(global::Aserto.Authorizer.V2.GetPolicyRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_GetPolicy, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Aserto.Authorizer.V2.GetPolicyResponse> GetPolicyAsync(global::Aserto.Authorizer.V2.GetPolicyRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetPolicyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Aserto.Authorizer.V2.GetPolicyResponse> GetPolicyAsync(global::Aserto.Authorizer.V2.GetPolicyRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_GetPolicy, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
