@@ -6,11 +6,11 @@ go:
 bin:
   dotnet:
     url: 'https://dotnetcli.azureedge.net/dotnet/Sdk/{{.Version}}/dotnet-sdk-{{.Version}}-{{if eq .OS "darwin"}}osx{{else}}{{.OS}}{{end}}-x64.tar.gz'
-    version: "5.0.302"
+    version: "6.0.402"
     sha:
-      linux-amd64: "92b07eecf4592e1b5e73eb82316b50b8d0e674238ec1f7d082544f5807f6bdf3"
-      darwin-amd64: "a754a5be6734c0338ef53e14a4e99922bc9fb93bc94de813dd4bca06131be916"
-      darwin-arm64: "a754a5be6734c0338ef53e14a4e99922bc9fb93bc94de813dd4bca06131be916"
+      linux-amd64: "635f25082b1074f76dc6617062f339201908bb523d7fa6eba46795d6bca3ee85"
+      darwin-amd64: "13b876e4a98331d7c3713d59ba32d9fab88fe48a297e4617483dc3b0b0afdd5b"
+      darwin-arm64: "13b876e4a98331d7c3713d59ba32d9fab88fe48a297e4617483dc3b0b0afdd5b"
     entrypoint: "dotnet"
     tgzPaths:
     - "./*"
