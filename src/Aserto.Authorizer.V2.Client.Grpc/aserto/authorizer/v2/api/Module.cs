@@ -26,16 +26,17 @@ namespace Aserto.Authorizer.V2.API {
           string.Concat(
             "CiVhc2VydG8vYXV0aG9yaXplci92Mi9hcGkvbW9kdWxlLnByb3RvEhhhc2Vy",
             "dG8uYXV0aG9yaXplci52Mi5hcGkaHGdvb2dsZS9wcm90b2J1Zi9zdHJ1Y3Qu",
-            "cHJvdG8imAEKBk1vZHVsZRIPCgJpZBgBIAEoCUgAiAEBEhAKA3JhdxgCIAEo",
+            "cHJvdG8ixAEKBk1vZHVsZRIPCgJpZBgBIAEoCUgAiAEBEhAKA3JhdxgCIAEo",
             "CUgBiAEBEhkKDHBhY2thZ2VfcGF0aBgDIAEoCUgCiAEBEigKA2FzdBgEIAEo",
-            "CzIWLmdvb2dsZS5wcm90b2J1Zi5WYWx1ZUgDiAEBQgUKA19pZEIGCgRfcmF3",
-            "Qg8KDV9wYWNrYWdlX3BhdGhCBgoEX2FzdEJdWkBnaXRodWIuY29tL2FzZXJ0",
-            "by1kZXYvZ28tYXV0aG9yaXplci9hc2VydG8vYXV0aG9yaXplci92Mi9hcGk7",
-            "YXBpqgIYQXNlcnRvLkF1dGhvcml6ZXIuVjIuQVBJYgZwcm90bzM="));
+            "CzIWLmdvb2dsZS5wcm90b2J1Zi5WYWx1ZUgDiAEBEhkKDHBhY2thZ2Vfcm9v",
+            "dBgFIAEoCUgEiAEBQgUKA19pZEIGCgRfcmF3Qg8KDV9wYWNrYWdlX3BhdGhC",
+            "BgoEX2FzdEIPCg1fcGFja2FnZV9yb290Ql1aQGdpdGh1Yi5jb20vYXNlcnRv",
+            "LWRldi9nby1hdXRob3JpemVyL2FzZXJ0by9hdXRob3JpemVyL3YyL2FwaTth",
+            "cGmqAhhBc2VydG8uQXV0aG9yaXplci5WMi5BUEliBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.API.Module), global::Aserto.Authorizer.V2.API.Module.Parser, new[]{ "Id", "Raw", "PackagePath", "Ast" }, new[]{ "Id", "Raw", "PackagePath", "Ast" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.API.Module), global::Aserto.Authorizer.V2.API.Module.Parser, new[]{ "Id", "Raw", "PackagePath", "Ast", "PackageRoot" }, new[]{ "Id", "Raw", "PackagePath", "Ast", "PackageRoot" }, null, null, null)
           }));
     }
     #endregion
@@ -75,6 +76,7 @@ namespace Aserto.Authorizer.V2.API {
       raw_ = other.raw_;
       packagePath_ = other.packagePath_;
       ast_ = other.ast_ != null ? other.ast_.Clone() : null;
+      packageRoot_ = other.packageRoot_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -157,6 +159,27 @@ namespace Aserto.Authorizer.V2.API {
       }
     }
 
+    /// <summary>Field number for the "package_root" field.</summary>
+    public const int PackageRootFieldNumber = 5;
+    private string packageRoot_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PackageRoot {
+      get { return packageRoot_ ?? ""; }
+      set {
+        packageRoot_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "package_root" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool HasPackageRoot {
+      get { return packageRoot_ != null; }
+    }
+    /// <summary>Clears the value of the "package_root" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearPackageRoot() {
+      packageRoot_ = null;
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Module);
@@ -174,6 +197,7 @@ namespace Aserto.Authorizer.V2.API {
       if (Raw != other.Raw) return false;
       if (PackagePath != other.PackagePath) return false;
       if (!object.Equals(Ast, other.Ast)) return false;
+      if (PackageRoot != other.PackageRoot) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -184,6 +208,7 @@ namespace Aserto.Authorizer.V2.API {
       if (HasRaw) hash ^= Raw.GetHashCode();
       if (HasPackagePath) hash ^= PackagePath.GetHashCode();
       if (ast_ != null) hash ^= Ast.GetHashCode();
+      if (HasPackageRoot) hash ^= PackageRoot.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -216,6 +241,10 @@ namespace Aserto.Authorizer.V2.API {
         output.WriteRawTag(34);
         output.WriteMessage(Ast);
       }
+      if (HasPackageRoot) {
+        output.WriteRawTag(42);
+        output.WriteString(PackageRoot);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -241,6 +270,10 @@ namespace Aserto.Authorizer.V2.API {
         output.WriteRawTag(34);
         output.WriteMessage(Ast);
       }
+      if (HasPackageRoot) {
+        output.WriteRawTag(42);
+        output.WriteString(PackageRoot);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -261,6 +294,9 @@ namespace Aserto.Authorizer.V2.API {
       }
       if (ast_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Ast);
+      }
+      if (HasPackageRoot) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PackageRoot);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -287,6 +323,9 @@ namespace Aserto.Authorizer.V2.API {
           Ast = new global::Google.Protobuf.WellKnownTypes.Value();
         }
         Ast.MergeFrom(other.Ast);
+      }
+      if (other.HasPackageRoot) {
+        PackageRoot = other.PackageRoot;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -321,6 +360,10 @@ namespace Aserto.Authorizer.V2.API {
             input.ReadMessage(Ast);
             break;
           }
+          case 42: {
+            PackageRoot = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -352,6 +395,10 @@ namespace Aserto.Authorizer.V2.API {
               Ast = new global::Google.Protobuf.WellKnownTypes.Value();
             }
             input.ReadMessage(Ast);
+            break;
+          }
+          case 42: {
+            PackageRoot = input.ReadString();
             break;
           }
         }

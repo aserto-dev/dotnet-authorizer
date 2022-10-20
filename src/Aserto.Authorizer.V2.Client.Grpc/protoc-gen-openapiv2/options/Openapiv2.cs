@@ -26,7 +26,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
           string.Concat(
             "Cixwcm90b2MtZ2VuLW9wZW5hcGl2Mi9vcHRpb25zL29wZW5hcGl2Mi5wcm90",
             "bxIpZ3JwYy5nYXRld2F5LnByb3RvY19nZW5fb3BlbmFwaXYyLm9wdGlvbnMa",
-            "HGdvb2dsZS9wcm90b2J1Zi9zdHJ1Y3QucHJvdG8i3QYKB1N3YWdnZXISDwoH",
+            "HGdvb2dsZS9wcm90b2J1Zi9zdHJ1Y3QucHJvdG8ilQcKB1N3YWdnZXISDwoH",
             "c3dhZ2dlchgBIAEoCRI9CgRpbmZvGAIgASgLMi8uZ3JwYy5nYXRld2F5LnBy",
             "b3RvY19nZW5fb3BlbmFwaXYyLm9wdGlvbnMuSW5mbxIMCgRob3N0GAMgASgJ",
             "EhEKCWJhc2VfcGF0aBgEIAEoCRJCCgdzY2hlbWVzGAUgAygOMjEuZ3JwYy5n",
@@ -37,133 +37,138 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
             "aW5pdGlvbnMYCyABKAsyPi5ncnBjLmdhdGV3YXkucHJvdG9jX2dlbl9vcGVu",
             "YXBpdjIub3B0aW9ucy5TZWN1cml0eURlZmluaXRpb25zElAKCHNlY3VyaXR5",
             "GAwgAygLMj4uZ3JwYy5nYXRld2F5LnByb3RvY19nZW5fb3BlbmFwaXYyLm9w",
-            "dGlvbnMuU2VjdXJpdHlSZXF1aXJlbWVudBJXCg1leHRlcm5hbF9kb2NzGA4g",
-            "ASgLMkAuZ3JwYy5nYXRld2F5LnByb3RvY19nZW5fb3BlbmFwaXYyLm9wdGlv",
-            "bnMuRXh0ZXJuYWxEb2N1bWVudGF0aW9uElYKCmV4dGVuc2lvbnMYDyADKAsy",
-            "Qi5ncnBjLmdhdGV3YXkucHJvdG9jX2dlbl9vcGVuYXBpdjIub3B0aW9ucy5T",
-            "d2FnZ2VyLkV4dGVuc2lvbnNFbnRyeRplCg5SZXNwb25zZXNFbnRyeRILCgNr",
-            "ZXkYASABKAkSQgoFdmFsdWUYAiABKAsyMy5ncnBjLmdhdGV3YXkucHJvdG9j",
-            "X2dlbl9vcGVuYXBpdjIub3B0aW9ucy5SZXNwb25zZToCOAEaSQoPRXh0ZW5z",
-            "aW9uc0VudHJ5EgsKA2tleRgBIAEoCRIlCgV2YWx1ZRgCIAEoCzIWLmdvb2ds",
-            "ZS5wcm90b2J1Zi5WYWx1ZToCOAFKBAgIEAlKBAgJEApKBAgNEA4i5gUKCU9w",
-            "ZXJhdGlvbhIMCgR0YWdzGAEgAygJEg8KB3N1bW1hcnkYAiABKAkSEwoLZGVz",
-            "Y3JpcHRpb24YAyABKAkSVwoNZXh0ZXJuYWxfZG9jcxgEIAEoCzJALmdycGMu",
-            "Z2F0ZXdheS5wcm90b2NfZ2VuX29wZW5hcGl2Mi5vcHRpb25zLkV4dGVybmFs",
-            "RG9jdW1lbnRhdGlvbhIUCgxvcGVyYXRpb25faWQYBSABKAkSEAoIY29uc3Vt",
-            "ZXMYBiADKAkSEAoIcHJvZHVjZXMYByADKAkSVgoJcmVzcG9uc2VzGAkgAygL",
-            "MkMuZ3JwYy5nYXRld2F5LnByb3RvY19nZW5fb3BlbmFwaXYyLm9wdGlvbnMu",
-            "T3BlcmF0aW9uLlJlc3BvbnNlc0VudHJ5EkIKB3NjaGVtZXMYCiADKA4yMS5n",
-            "cnBjLmdhdGV3YXkucHJvdG9jX2dlbl9vcGVuYXBpdjIub3B0aW9ucy5TY2hl",
-            "bWUSEgoKZGVwcmVjYXRlZBgLIAEoCBJQCghzZWN1cml0eRgMIAMoCzI+Lmdy",
-            "cGMuZ2F0ZXdheS5wcm90b2NfZ2VuX29wZW5hcGl2Mi5vcHRpb25zLlNlY3Vy",
-            "aXR5UmVxdWlyZW1lbnQSWAoKZXh0ZW5zaW9ucxgNIAMoCzJELmdycGMuZ2F0",
-            "ZXdheS5wcm90b2NfZ2VuX29wZW5hcGl2Mi5vcHRpb25zLk9wZXJhdGlvbi5F",
-            "eHRlbnNpb25zRW50cnkaZQoOUmVzcG9uc2VzRW50cnkSCwoDa2V5GAEgASgJ",
-            "EkIKBXZhbHVlGAIgASgLMjMuZ3JwYy5nYXRld2F5LnByb3RvY19nZW5fb3Bl",
-            "bmFwaXYyLm9wdGlvbnMuUmVzcG9uc2U6AjgBGkkKD0V4dGVuc2lvbnNFbnRy",
-            "eRILCgNrZXkYASABKAkSJQoFdmFsdWUYAiABKAsyFi5nb29nbGUucHJvdG9i",
-            "dWYuVmFsdWU6AjgBSgQICBAJIqsBCgZIZWFkZXISEwoLZGVzY3JpcHRpb24Y",
-            "ASABKAkSDAoEdHlwZRgCIAEoCRIOCgZmb3JtYXQYAyABKAkSDwoHZGVmYXVs",
-            "dBgGIAEoCRIPCgdwYXR0ZXJuGA0gASgJSgQIBBAFSgQIBRAGSgQIBxAISgQI",
-            "CBAJSgQICRAKSgQIChALSgQICxAMSgQIDBANSgQIDhAPSgQIDxAQSgQIEBAR",
-            "SgQIERASSgQIEhATIsIECghSZXNwb25zZRITCgtkZXNjcmlwdGlvbhgBIAEo",
-            "CRJBCgZzY2hlbWEYAiABKAsyMS5ncnBjLmdhdGV3YXkucHJvdG9jX2dlbl9v",
-            "cGVuYXBpdjIub3B0aW9ucy5TY2hlbWESUQoHaGVhZGVycxgDIAMoCzJALmdy",
+            "dGlvbnMuU2VjdXJpdHlSZXF1aXJlbWVudBI8CgR0YWdzGA0gAygLMi4uZ3Jw",
+            "Yy5nYXRld2F5LnByb3RvY19nZW5fb3BlbmFwaXYyLm9wdGlvbnMuVGFnElcK",
+            "DWV4dGVybmFsX2RvY3MYDiABKAsyQC5ncnBjLmdhdGV3YXkucHJvdG9jX2dl",
+            "bl9vcGVuYXBpdjIub3B0aW9ucy5FeHRlcm5hbERvY3VtZW50YXRpb24SVgoK",
+            "ZXh0ZW5zaW9ucxgPIAMoCzJCLmdycGMuZ2F0ZXdheS5wcm90b2NfZ2VuX29w",
+            "ZW5hcGl2Mi5vcHRpb25zLlN3YWdnZXIuRXh0ZW5zaW9uc0VudHJ5GmUKDlJl",
+            "c3BvbnNlc0VudHJ5EgsKA2tleRgBIAEoCRJCCgV2YWx1ZRgCIAEoCzIzLmdy",
             "cGMuZ2F0ZXdheS5wcm90b2NfZ2VuX29wZW5hcGl2Mi5vcHRpb25zLlJlc3Bv",
-            "bnNlLkhlYWRlcnNFbnRyeRJTCghleGFtcGxlcxgEIAMoCzJBLmdycGMuZ2F0",
-            "ZXdheS5wcm90b2NfZ2VuX29wZW5hcGl2Mi5vcHRpb25zLlJlc3BvbnNlLkV4",
-            "YW1wbGVzRW50cnkSVwoKZXh0ZW5zaW9ucxgFIAMoCzJDLmdycGMuZ2F0ZXdh",
-            "eS5wcm90b2NfZ2VuX29wZW5hcGl2Mi5vcHRpb25zLlJlc3BvbnNlLkV4dGVu",
-            "c2lvbnNFbnRyeRphCgxIZWFkZXJzRW50cnkSCwoDa2V5GAEgASgJEkAKBXZh",
-            "bHVlGAIgASgLMjEuZ3JwYy5nYXRld2F5LnByb3RvY19nZW5fb3BlbmFwaXYy",
-            "Lm9wdGlvbnMuSGVhZGVyOgI4ARovCg1FeGFtcGxlc0VudHJ5EgsKA2tleRgB",
-            "IAEoCRINCgV2YWx1ZRgCIAEoCToCOAEaSQoPRXh0ZW5zaW9uc0VudHJ5EgsK",
-            "A2tleRgBIAEoCRIlCgV2YWx1ZRgCIAEoCzIWLmdvb2dsZS5wcm90b2J1Zi5W",
-            "YWx1ZToCOAEi/wIKBEluZm8SDQoFdGl0bGUYASABKAkSEwoLZGVzY3JpcHRp",
-            "b24YAiABKAkSGAoQdGVybXNfb2Zfc2VydmljZRgDIAEoCRJDCgdjb250YWN0",
-            "GAQgASgLMjIuZ3JwYy5nYXRld2F5LnByb3RvY19nZW5fb3BlbmFwaXYyLm9w",
-            "dGlvbnMuQ29udGFjdBJDCgdsaWNlbnNlGAUgASgLMjIuZ3JwYy5nYXRld2F5",
-            "LnByb3RvY19nZW5fb3BlbmFwaXYyLm9wdGlvbnMuTGljZW5zZRIPCgd2ZXJz",
-            "aW9uGAYgASgJElMKCmV4dGVuc2lvbnMYByADKAsyPy5ncnBjLmdhdGV3YXku",
-            "cHJvdG9jX2dlbl9vcGVuYXBpdjIub3B0aW9ucy5JbmZvLkV4dGVuc2lvbnNF",
-            "bnRyeRpJCg9FeHRlbnNpb25zRW50cnkSCwoDa2V5GAEgASgJEiUKBXZhbHVl",
-            "GAIgASgLMhYuZ29vZ2xlLnByb3RvYnVmLlZhbHVlOgI4ASIzCgdDb250YWN0",
-            "EgwKBG5hbWUYASABKAkSCwoDdXJsGAIgASgJEg0KBWVtYWlsGAMgASgJIiQK",
-            "B0xpY2Vuc2USDAoEbmFtZRgBIAEoCRILCgN1cmwYAiABKAkiOQoVRXh0ZXJu",
-            "YWxEb2N1bWVudGF0aW9uEhMKC2Rlc2NyaXB0aW9uGAEgASgJEgsKA3VybBgC",
-            "IAEoCSLuAQoGU2NoZW1hEkoKC2pzb25fc2NoZW1hGAEgASgLMjUuZ3JwYy5n",
-            "YXRld2F5LnByb3RvY19nZW5fb3BlbmFwaXYyLm9wdGlvbnMuSlNPTlNjaGVt",
-            "YRIVCg1kaXNjcmltaW5hdG9yGAIgASgJEhEKCXJlYWRfb25seRgDIAEoCBJX",
-            "Cg1leHRlcm5hbF9kb2NzGAUgASgLMkAuZ3JwYy5nYXRld2F5LnByb3RvY19n",
-            "ZW5fb3BlbmFwaXYyLm9wdGlvbnMuRXh0ZXJuYWxEb2N1bWVudGF0aW9uEg8K",
-            "B2V4YW1wbGUYBiABKAlKBAgEEAUioggKCkpTT05TY2hlbWESCwoDcmVmGAMg",
-            "ASgJEg0KBXRpdGxlGAUgASgJEhMKC2Rlc2NyaXB0aW9uGAYgASgJEg8KB2Rl",
-            "ZmF1bHQYByABKAkSEQoJcmVhZF9vbmx5GAggASgIEg8KB2V4YW1wbGUYCSAB",
-            "KAkSEwoLbXVsdGlwbGVfb2YYCiABKAESDwoHbWF4aW11bRgLIAEoARIZChFl",
-            "eGNsdXNpdmVfbWF4aW11bRgMIAEoCBIPCgdtaW5pbXVtGA0gASgBEhkKEWV4",
-            "Y2x1c2l2ZV9taW5pbXVtGA4gASgIEhIKCm1heF9sZW5ndGgYDyABKAQSEgoK",
-            "bWluX2xlbmd0aBgQIAEoBBIPCgdwYXR0ZXJuGBEgASgJEhEKCW1heF9pdGVt",
-            "cxgUIAEoBBIRCgltaW5faXRlbXMYFSABKAQSFAoMdW5pcXVlX2l0ZW1zGBYg",
-            "ASgIEhYKDm1heF9wcm9wZXJ0aWVzGBggASgEEhYKDm1pbl9wcm9wZXJ0aWVz",
-            "GBkgASgEEhAKCHJlcXVpcmVkGBogAygJEg0KBWFycmF5GCIgAygJElkKBHR5",
-            "cGUYIyADKA4ySy5ncnBjLmdhdGV3YXkucHJvdG9jX2dlbl9vcGVuYXBpdjIu",
-            "b3B0aW9ucy5KU09OU2NoZW1hLkpTT05TY2hlbWFTaW1wbGVUeXBlcxIOCgZm",
-            "b3JtYXQYJCABKAkSDAoEZW51bRguIAMoCRJmChNmaWVsZF9jb25maWd1cmF0",
-            "aW9uGOkHIAEoCzJILmdycGMuZ2F0ZXdheS5wcm90b2NfZ2VuX29wZW5hcGl2",
-            "Mi5vcHRpb25zLkpTT05TY2hlbWEuRmllbGRDb25maWd1cmF0aW9uElkKCmV4",
-            "dGVuc2lvbnMYMCADKAsyRS5ncnBjLmdhdGV3YXkucHJvdG9jX2dlbl9vcGVu",
-            "YXBpdjIub3B0aW9ucy5KU09OU2NoZW1hLkV4dGVuc2lvbnNFbnRyeRotChJG",
-            "aWVsZENvbmZpZ3VyYXRpb24SFwoPcGF0aF9wYXJhbV9uYW1lGC8gASgJGkkK",
-            "D0V4dGVuc2lvbnNFbnRyeRILCgNrZXkYASABKAkSJQoFdmFsdWUYAiABKAsy",
-            "Fi5nb29nbGUucHJvdG9idWYuVmFsdWU6AjgBIncKFUpTT05TY2hlbWFTaW1w",
-            "bGVUeXBlcxILCgdVTktOT1dOEAASCQoFQVJSQVkQARILCgdCT09MRUFOEAIS",
-            "CwoHSU5URUdFUhADEggKBE5VTEwQBBIKCgZOVU1CRVIQBRIKCgZPQkpFQ1QQ",
-            "BhIKCgZTVFJJTkcQB0oECAEQAkoECAIQA0oECAQQBUoECBIQE0oECBMQFEoE",
-            "CBcQGEoECBsQHEoECBwQHUoECB0QHkoECB4QIkoECCUQKkoECCoQK0oECCsQ",
-            "LiJ5CgNUYWcSEwoLZGVzY3JpcHRpb24YAiABKAkSVwoNZXh0ZXJuYWxfZG9j",
-            "cxgDIAEoCzJALmdycGMuZ2F0ZXdheS5wcm90b2NfZ2VuX29wZW5hcGl2Mi5v",
-            "cHRpb25zLkV4dGVybmFsRG9jdW1lbnRhdGlvbkoECAEQAiLhAQoTU2VjdXJp",
-            "dHlEZWZpbml0aW9ucxJeCghzZWN1cml0eRgBIAMoCzJMLmdycGMuZ2F0ZXdh",
-            "eS5wcm90b2NfZ2VuX29wZW5hcGl2Mi5vcHRpb25zLlNlY3VyaXR5RGVmaW5p",
-            "dGlvbnMuU2VjdXJpdHlFbnRyeRpqCg1TZWN1cml0eUVudHJ5EgsKA2tleRgB",
-            "IAEoCRJICgV2YWx1ZRgCIAEoCzI5LmdycGMuZ2F0ZXdheS5wcm90b2NfZ2Vu",
-            "X29wZW5hcGl2Mi5vcHRpb25zLlNlY3VyaXR5U2NoZW1lOgI4ASKgBgoOU2Vj",
-            "dXJpdHlTY2hlbWUSTAoEdHlwZRgBIAEoDjI+LmdycGMuZ2F0ZXdheS5wcm90",
-            "b2NfZ2VuX29wZW5hcGl2Mi5vcHRpb25zLlNlY3VyaXR5U2NoZW1lLlR5cGUS",
-            "EwoLZGVzY3JpcHRpb24YAiABKAkSDAoEbmFtZRgDIAEoCRJICgJpbhgEIAEo",
-            "DjI8LmdycGMuZ2F0ZXdheS5wcm90b2NfZ2VuX29wZW5hcGl2Mi5vcHRpb25z",
-            "LlNlY3VyaXR5U2NoZW1lLkluEkwKBGZsb3cYBSABKA4yPi5ncnBjLmdhdGV3",
-            "YXkucHJvdG9jX2dlbl9vcGVuYXBpdjIub3B0aW9ucy5TZWN1cml0eVNjaGVt",
-            "ZS5GbG93EhkKEWF1dGhvcml6YXRpb25fdXJsGAYgASgJEhEKCXRva2VuX3Vy",
-            "bBgHIAEoCRJBCgZzY29wZXMYCCABKAsyMS5ncnBjLmdhdGV3YXkucHJvdG9j",
-            "X2dlbl9vcGVuYXBpdjIub3B0aW9ucy5TY29wZXMSXQoKZXh0ZW5zaW9ucxgJ",
-            "IAMoCzJJLmdycGMuZ2F0ZXdheS5wcm90b2NfZ2VuX29wZW5hcGl2Mi5vcHRp",
-            "b25zLlNlY3VyaXR5U2NoZW1lLkV4dGVuc2lvbnNFbnRyeRpJCg9FeHRlbnNp",
+            "bnNlOgI4ARpJCg9FeHRlbnNpb25zRW50cnkSCwoDa2V5GAEgASgJEiUKBXZh",
+            "bHVlGAIgASgLMhYuZ29vZ2xlLnByb3RvYnVmLlZhbHVlOgI4AUoECAgQCUoE",
+            "CAkQCiLmBQoJT3BlcmF0aW9uEgwKBHRhZ3MYASADKAkSDwoHc3VtbWFyeRgC",
+            "IAEoCRITCgtkZXNjcmlwdGlvbhgDIAEoCRJXCg1leHRlcm5hbF9kb2NzGAQg",
+            "ASgLMkAuZ3JwYy5nYXRld2F5LnByb3RvY19nZW5fb3BlbmFwaXYyLm9wdGlv",
+            "bnMuRXh0ZXJuYWxEb2N1bWVudGF0aW9uEhQKDG9wZXJhdGlvbl9pZBgFIAEo",
+            "CRIQCghjb25zdW1lcxgGIAMoCRIQCghwcm9kdWNlcxgHIAMoCRJWCglyZXNw",
+            "b25zZXMYCSADKAsyQy5ncnBjLmdhdGV3YXkucHJvdG9jX2dlbl9vcGVuYXBp",
+            "djIub3B0aW9ucy5PcGVyYXRpb24uUmVzcG9uc2VzRW50cnkSQgoHc2NoZW1l",
+            "cxgKIAMoDjIxLmdycGMuZ2F0ZXdheS5wcm90b2NfZ2VuX29wZW5hcGl2Mi5v",
+            "cHRpb25zLlNjaGVtZRISCgpkZXByZWNhdGVkGAsgASgIElAKCHNlY3VyaXR5",
+            "GAwgAygLMj4uZ3JwYy5nYXRld2F5LnByb3RvY19nZW5fb3BlbmFwaXYyLm9w",
+            "dGlvbnMuU2VjdXJpdHlSZXF1aXJlbWVudBJYCgpleHRlbnNpb25zGA0gAygL",
+            "MkQuZ3JwYy5nYXRld2F5LnByb3RvY19nZW5fb3BlbmFwaXYyLm9wdGlvbnMu",
+            "T3BlcmF0aW9uLkV4dGVuc2lvbnNFbnRyeRplCg5SZXNwb25zZXNFbnRyeRIL",
+            "CgNrZXkYASABKAkSQgoFdmFsdWUYAiABKAsyMy5ncnBjLmdhdGV3YXkucHJv",
+            "dG9jX2dlbl9vcGVuYXBpdjIub3B0aW9ucy5SZXNwb25zZToCOAEaSQoPRXh0",
+            "ZW5zaW9uc0VudHJ5EgsKA2tleRgBIAEoCRIlCgV2YWx1ZRgCIAEoCzIWLmdv",
+            "b2dsZS5wcm90b2J1Zi5WYWx1ZToCOAFKBAgIEAkiqwEKBkhlYWRlchITCgtk",
+            "ZXNjcmlwdGlvbhgBIAEoCRIMCgR0eXBlGAIgASgJEg4KBmZvcm1hdBgDIAEo",
+            "CRIPCgdkZWZhdWx0GAYgASgJEg8KB3BhdHRlcm4YDSABKAlKBAgEEAVKBAgF",
+            "EAZKBAgHEAhKBAgIEAlKBAgJEApKBAgKEAtKBAgLEAxKBAgMEA1KBAgOEA9K",
+            "BAgPEBBKBAgQEBFKBAgREBJKBAgSEBMiwgQKCFJlc3BvbnNlEhMKC2Rlc2Ny",
+            "aXB0aW9uGAEgASgJEkEKBnNjaGVtYRgCIAEoCzIxLmdycGMuZ2F0ZXdheS5w",
+            "cm90b2NfZ2VuX29wZW5hcGl2Mi5vcHRpb25zLlNjaGVtYRJRCgdoZWFkZXJz",
+            "GAMgAygLMkAuZ3JwYy5nYXRld2F5LnByb3RvY19nZW5fb3BlbmFwaXYyLm9w",
+            "dGlvbnMuUmVzcG9uc2UuSGVhZGVyc0VudHJ5ElMKCGV4YW1wbGVzGAQgAygL",
+            "MkEuZ3JwYy5nYXRld2F5LnByb3RvY19nZW5fb3BlbmFwaXYyLm9wdGlvbnMu",
+            "UmVzcG9uc2UuRXhhbXBsZXNFbnRyeRJXCgpleHRlbnNpb25zGAUgAygLMkMu",
+            "Z3JwYy5nYXRld2F5LnByb3RvY19nZW5fb3BlbmFwaXYyLm9wdGlvbnMuUmVz",
+            "cG9uc2UuRXh0ZW5zaW9uc0VudHJ5GmEKDEhlYWRlcnNFbnRyeRILCgNrZXkY",
+            "ASABKAkSQAoFdmFsdWUYAiABKAsyMS5ncnBjLmdhdGV3YXkucHJvdG9jX2dl",
+            "bl9vcGVuYXBpdjIub3B0aW9ucy5IZWFkZXI6AjgBGi8KDUV4YW1wbGVzRW50",
+            "cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ARpJCg9FeHRlbnNp",
             "b25zRW50cnkSCwoDa2V5GAEgASgJEiUKBXZhbHVlGAIgASgLMhYuZ29vZ2xl",
-            "LnByb3RvYnVmLlZhbHVlOgI4ASJLCgRUeXBlEhAKDFRZUEVfSU5WQUxJRBAA",
-            "Eg4KClRZUEVfQkFTSUMQARIQCgxUWVBFX0FQSV9LRVkQAhIPCgtUWVBFX09B",
-            "VVRIMhADIjEKAkluEg4KCklOX0lOVkFMSUQQABIMCghJTl9RVUVSWRABEg0K",
-            "CUlOX0hFQURFUhACImoKBEZsb3cSEAoMRkxPV19JTlZBTElEEAASEQoNRkxP",
-            "V19JTVBMSUNJVBABEhEKDUZMT1dfUEFTU1dPUkQQAhIUChBGTE9XX0FQUExJ",
-            "Q0FUSU9OEAMSFAoQRkxPV19BQ0NFU1NfQ09ERRAEIs0CChNTZWN1cml0eVJl",
-            "cXVpcmVtZW50EnUKFHNlY3VyaXR5X3JlcXVpcmVtZW50GAEgAygLMlcuZ3Jw",
-            "Yy5nYXRld2F5LnByb3RvY19nZW5fb3BlbmFwaXYyLm9wdGlvbnMuU2VjdXJp",
-            "dHlSZXF1aXJlbWVudC5TZWN1cml0eVJlcXVpcmVtZW50RW50cnkaKQoYU2Vj",
-            "dXJpdHlSZXF1aXJlbWVudFZhbHVlEg0KBXNjb3BlGAEgAygJGpMBChhTZWN1",
-            "cml0eVJlcXVpcmVtZW50RW50cnkSCwoDa2V5GAEgASgJEmYKBXZhbHVlGAIg",
-            "ASgLMlcuZ3JwYy5nYXRld2F5LnByb3RvY19nZW5fb3BlbmFwaXYyLm9wdGlv",
-            "bnMuU2VjdXJpdHlSZXF1aXJlbWVudC5TZWN1cml0eVJlcXVpcmVtZW50VmFs",
-            "dWU6AjgBIoMBCgZTY29wZXMSSwoFc2NvcGUYASADKAsyPC5ncnBjLmdhdGV3",
-            "YXkucHJvdG9jX2dlbl9vcGVuYXBpdjIub3B0aW9ucy5TY29wZXMuU2NvcGVF",
-            "bnRyeRosCgpTY29wZUVudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEo",
-            "CToCOAEqOwoGU2NoZW1lEgsKB1VOS05PV04QABIICgRIVFRQEAESCQoFSFRU",
-            "UFMQAhIGCgJXUxADEgcKA1dTUxAEQkhaRmdpdGh1Yi5jb20vZ3JwYy1lY29z",
-            "eXN0ZW0vZ3JwYy1nYXRld2F5L3YyL3Byb3RvYy1nZW4tb3BlbmFwaXYyL29w",
-            "dGlvbnNiBnByb3RvMw=="));
+            "LnByb3RvYnVmLlZhbHVlOgI4ASL/AgoESW5mbxINCgV0aXRsZRgBIAEoCRIT",
+            "CgtkZXNjcmlwdGlvbhgCIAEoCRIYChB0ZXJtc19vZl9zZXJ2aWNlGAMgASgJ",
+            "EkMKB2NvbnRhY3QYBCABKAsyMi5ncnBjLmdhdGV3YXkucHJvdG9jX2dlbl9v",
+            "cGVuYXBpdjIub3B0aW9ucy5Db250YWN0EkMKB2xpY2Vuc2UYBSABKAsyMi5n",
+            "cnBjLmdhdGV3YXkucHJvdG9jX2dlbl9vcGVuYXBpdjIub3B0aW9ucy5MaWNl",
+            "bnNlEg8KB3ZlcnNpb24YBiABKAkSUwoKZXh0ZW5zaW9ucxgHIAMoCzI/Lmdy",
+            "cGMuZ2F0ZXdheS5wcm90b2NfZ2VuX29wZW5hcGl2Mi5vcHRpb25zLkluZm8u",
+            "RXh0ZW5zaW9uc0VudHJ5GkkKD0V4dGVuc2lvbnNFbnRyeRILCgNrZXkYASAB",
+            "KAkSJQoFdmFsdWUYAiABKAsyFi5nb29nbGUucHJvdG9idWYuVmFsdWU6AjgB",
+            "IjMKB0NvbnRhY3QSDAoEbmFtZRgBIAEoCRILCgN1cmwYAiABKAkSDQoFZW1h",
+            "aWwYAyABKAkiJAoHTGljZW5zZRIMCgRuYW1lGAEgASgJEgsKA3VybBgCIAEo",
+            "CSI5ChVFeHRlcm5hbERvY3VtZW50YXRpb24SEwoLZGVzY3JpcHRpb24YASAB",
+            "KAkSCwoDdXJsGAIgASgJIu4BCgZTY2hlbWESSgoLanNvbl9zY2hlbWEYASAB",
+            "KAsyNS5ncnBjLmdhdGV3YXkucHJvdG9jX2dlbl9vcGVuYXBpdjIub3B0aW9u",
+            "cy5KU09OU2NoZW1hEhUKDWRpc2NyaW1pbmF0b3IYAiABKAkSEQoJcmVhZF9v",
+            "bmx5GAMgASgIElcKDWV4dGVybmFsX2RvY3MYBSABKAsyQC5ncnBjLmdhdGV3",
+            "YXkucHJvdG9jX2dlbl9vcGVuYXBpdjIub3B0aW9ucy5FeHRlcm5hbERvY3Vt",
+            "ZW50YXRpb24SDwoHZXhhbXBsZRgGIAEoCUoECAQQBSKiCAoKSlNPTlNjaGVt",
+            "YRILCgNyZWYYAyABKAkSDQoFdGl0bGUYBSABKAkSEwoLZGVzY3JpcHRpb24Y",
+            "BiABKAkSDwoHZGVmYXVsdBgHIAEoCRIRCglyZWFkX29ubHkYCCABKAgSDwoH",
+            "ZXhhbXBsZRgJIAEoCRITCgttdWx0aXBsZV9vZhgKIAEoARIPCgdtYXhpbXVt",
+            "GAsgASgBEhkKEWV4Y2x1c2l2ZV9tYXhpbXVtGAwgASgIEg8KB21pbmltdW0Y",
+            "DSABKAESGQoRZXhjbHVzaXZlX21pbmltdW0YDiABKAgSEgoKbWF4X2xlbmd0",
+            "aBgPIAEoBBISCgptaW5fbGVuZ3RoGBAgASgEEg8KB3BhdHRlcm4YESABKAkS",
+            "EQoJbWF4X2l0ZW1zGBQgASgEEhEKCW1pbl9pdGVtcxgVIAEoBBIUCgx1bmlx",
+            "dWVfaXRlbXMYFiABKAgSFgoObWF4X3Byb3BlcnRpZXMYGCABKAQSFgoObWlu",
+            "X3Byb3BlcnRpZXMYGSABKAQSEAoIcmVxdWlyZWQYGiADKAkSDQoFYXJyYXkY",
+            "IiADKAkSWQoEdHlwZRgjIAMoDjJLLmdycGMuZ2F0ZXdheS5wcm90b2NfZ2Vu",
+            "X29wZW5hcGl2Mi5vcHRpb25zLkpTT05TY2hlbWEuSlNPTlNjaGVtYVNpbXBs",
+            "ZVR5cGVzEg4KBmZvcm1hdBgkIAEoCRIMCgRlbnVtGC4gAygJEmYKE2ZpZWxk",
+            "X2NvbmZpZ3VyYXRpb24Y6QcgASgLMkguZ3JwYy5nYXRld2F5LnByb3RvY19n",
+            "ZW5fb3BlbmFwaXYyLm9wdGlvbnMuSlNPTlNjaGVtYS5GaWVsZENvbmZpZ3Vy",
+            "YXRpb24SWQoKZXh0ZW5zaW9ucxgwIAMoCzJFLmdycGMuZ2F0ZXdheS5wcm90",
+            "b2NfZ2VuX29wZW5hcGl2Mi5vcHRpb25zLkpTT05TY2hlbWEuRXh0ZW5zaW9u",
+            "c0VudHJ5Gi0KEkZpZWxkQ29uZmlndXJhdGlvbhIXCg9wYXRoX3BhcmFtX25h",
+            "bWUYLyABKAkaSQoPRXh0ZW5zaW9uc0VudHJ5EgsKA2tleRgBIAEoCRIlCgV2",
+            "YWx1ZRgCIAEoCzIWLmdvb2dsZS5wcm90b2J1Zi5WYWx1ZToCOAEidwoVSlNP",
+            "TlNjaGVtYVNpbXBsZVR5cGVzEgsKB1VOS05PV04QABIJCgVBUlJBWRABEgsK",
+            "B0JPT0xFQU4QAhILCgdJTlRFR0VSEAMSCAoETlVMTBAEEgoKBk5VTUJFUhAF",
+            "EgoKBk9CSkVDVBAGEgoKBlNUUklORxAHSgQIARACSgQIAhADSgQIBBAFSgQI",
+            "EhATSgQIExAUSgQIFxAYSgQIGxAcSgQIHBAdSgQIHRAeSgQIHhAiSgQIJRAq",
+            "SgQIKhArSgQIKxAuIqACCgNUYWcSDAoEbmFtZRgBIAEoCRITCgtkZXNjcmlw",
+            "dGlvbhgCIAEoCRJXCg1leHRlcm5hbF9kb2NzGAMgASgLMkAuZ3JwYy5nYXRl",
+            "d2F5LnByb3RvY19nZW5fb3BlbmFwaXYyLm9wdGlvbnMuRXh0ZXJuYWxEb2N1",
+            "bWVudGF0aW9uElIKCmV4dGVuc2lvbnMYBCADKAsyPi5ncnBjLmdhdGV3YXku",
+            "cHJvdG9jX2dlbl9vcGVuYXBpdjIub3B0aW9ucy5UYWcuRXh0ZW5zaW9uc0Vu",
+            "dHJ5GkkKD0V4dGVuc2lvbnNFbnRyeRILCgNrZXkYASABKAkSJQoFdmFsdWUY",
+            "AiABKAsyFi5nb29nbGUucHJvdG9idWYuVmFsdWU6AjgBIuEBChNTZWN1cml0",
+            "eURlZmluaXRpb25zEl4KCHNlY3VyaXR5GAEgAygLMkwuZ3JwYy5nYXRld2F5",
+            "LnByb3RvY19nZW5fb3BlbmFwaXYyLm9wdGlvbnMuU2VjdXJpdHlEZWZpbml0",
+            "aW9ucy5TZWN1cml0eUVudHJ5GmoKDVNlY3VyaXR5RW50cnkSCwoDa2V5GAEg",
+            "ASgJEkgKBXZhbHVlGAIgASgLMjkuZ3JwYy5nYXRld2F5LnByb3RvY19nZW5f",
+            "b3BlbmFwaXYyLm9wdGlvbnMuU2VjdXJpdHlTY2hlbWU6AjgBIqAGCg5TZWN1",
+            "cml0eVNjaGVtZRJMCgR0eXBlGAEgASgOMj4uZ3JwYy5nYXRld2F5LnByb3Rv",
+            "Y19nZW5fb3BlbmFwaXYyLm9wdGlvbnMuU2VjdXJpdHlTY2hlbWUuVHlwZRIT",
+            "CgtkZXNjcmlwdGlvbhgCIAEoCRIMCgRuYW1lGAMgASgJEkgKAmluGAQgASgO",
+            "MjwuZ3JwYy5nYXRld2F5LnByb3RvY19nZW5fb3BlbmFwaXYyLm9wdGlvbnMu",
+            "U2VjdXJpdHlTY2hlbWUuSW4STAoEZmxvdxgFIAEoDjI+LmdycGMuZ2F0ZXdh",
+            "eS5wcm90b2NfZ2VuX29wZW5hcGl2Mi5vcHRpb25zLlNlY3VyaXR5U2NoZW1l",
+            "LkZsb3cSGQoRYXV0aG9yaXphdGlvbl91cmwYBiABKAkSEQoJdG9rZW5fdXJs",
+            "GAcgASgJEkEKBnNjb3BlcxgIIAEoCzIxLmdycGMuZ2F0ZXdheS5wcm90b2Nf",
+            "Z2VuX29wZW5hcGl2Mi5vcHRpb25zLlNjb3BlcxJdCgpleHRlbnNpb25zGAkg",
+            "AygLMkkuZ3JwYy5nYXRld2F5LnByb3RvY19nZW5fb3BlbmFwaXYyLm9wdGlv",
+            "bnMuU2VjdXJpdHlTY2hlbWUuRXh0ZW5zaW9uc0VudHJ5GkkKD0V4dGVuc2lv",
+            "bnNFbnRyeRILCgNrZXkYASABKAkSJQoFdmFsdWUYAiABKAsyFi5nb29nbGUu",
+            "cHJvdG9idWYuVmFsdWU6AjgBIksKBFR5cGUSEAoMVFlQRV9JTlZBTElEEAAS",
+            "DgoKVFlQRV9CQVNJQxABEhAKDFRZUEVfQVBJX0tFWRACEg8KC1RZUEVfT0FV",
+            "VEgyEAMiMQoCSW4SDgoKSU5fSU5WQUxJRBAAEgwKCElOX1FVRVJZEAESDQoJ",
+            "SU5fSEVBREVSEAIiagoERmxvdxIQCgxGTE9XX0lOVkFMSUQQABIRCg1GTE9X",
+            "X0lNUExJQ0lUEAESEQoNRkxPV19QQVNTV09SRBACEhQKEEZMT1dfQVBQTElD",
+            "QVRJT04QAxIUChBGTE9XX0FDQ0VTU19DT0RFEAQizQIKE1NlY3VyaXR5UmVx",
+            "dWlyZW1lbnQSdQoUc2VjdXJpdHlfcmVxdWlyZW1lbnQYASADKAsyVy5ncnBj",
+            "LmdhdGV3YXkucHJvdG9jX2dlbl9vcGVuYXBpdjIub3B0aW9ucy5TZWN1cml0",
+            "eVJlcXVpcmVtZW50LlNlY3VyaXR5UmVxdWlyZW1lbnRFbnRyeRopChhTZWN1",
+            "cml0eVJlcXVpcmVtZW50VmFsdWUSDQoFc2NvcGUYASADKAkakwEKGFNlY3Vy",
+            "aXR5UmVxdWlyZW1lbnRFbnRyeRILCgNrZXkYASABKAkSZgoFdmFsdWUYAiAB",
+            "KAsyVy5ncnBjLmdhdGV3YXkucHJvdG9jX2dlbl9vcGVuYXBpdjIub3B0aW9u",
+            "cy5TZWN1cml0eVJlcXVpcmVtZW50LlNlY3VyaXR5UmVxdWlyZW1lbnRWYWx1",
+            "ZToCOAEigwEKBlNjb3BlcxJLCgVzY29wZRgBIAMoCzI8LmdycGMuZ2F0ZXdh",
+            "eS5wcm90b2NfZ2VuX29wZW5hcGl2Mi5vcHRpb25zLlNjb3Blcy5TY29wZUVu",
+            "dHJ5GiwKClNjb3BlRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJ",
+            "OgI4ASo7CgZTY2hlbWUSCwoHVU5LTk9XThAAEggKBEhUVFAQARIJCgVIVFRQ",
+            "UxACEgYKAldTEAMSBwoDV1NTEARCSFpGZ2l0aHViLmNvbS9ncnBjLWVjb3N5",
+            "c3RlbS9ncnBjLWdhdGV3YXkvdjIvcHJvdG9jLWdlbi1vcGVuYXBpdjIvb3B0",
+            "aW9uc2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Grpc.Gateway.ProtocGenOpenapiv2.Options.Scheme), }, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Grpc.Gateway.ProtocGenOpenapiv2.Options.Swagger), global::Grpc.Gateway.ProtocGenOpenapiv2.Options.Swagger.Parser, new[]{ "Swagger_", "Info", "Host", "BasePath", "Schemes", "Consumes", "Produces", "Responses", "SecurityDefinitions", "Security", "ExternalDocs", "Extensions" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Grpc.Gateway.ProtocGenOpenapiv2.Options.Swagger), global::Grpc.Gateway.ProtocGenOpenapiv2.Options.Swagger.Parser, new[]{ "Swagger_", "Info", "Host", "BasePath", "Schemes", "Consumes", "Produces", "Responses", "SecurityDefinitions", "Security", "Tags", "ExternalDocs", "Extensions" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Grpc.Gateway.ProtocGenOpenapiv2.Options.Operation), global::Grpc.Gateway.ProtocGenOpenapiv2.Options.Operation.Parser, new[]{ "Tags", "Summary", "Description", "ExternalDocs", "OperationId", "Consumes", "Produces", "Responses", "Schemes", "Deprecated", "Security", "Extensions" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Grpc.Gateway.ProtocGenOpenapiv2.Options.Header), global::Grpc.Gateway.ProtocGenOpenapiv2.Options.Header.Parser, new[]{ "Description", "Type", "Format", "Default", "Pattern" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Grpc.Gateway.ProtocGenOpenapiv2.Options.Response), global::Grpc.Gateway.ProtocGenOpenapiv2.Options.Response.Parser, new[]{ "Description", "Schema", "Headers", "Examples", "Extensions" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, null, }),
@@ -174,7 +179,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
             new pbr::GeneratedClrTypeInfo(typeof(global::Grpc.Gateway.ProtocGenOpenapiv2.Options.Schema), global::Grpc.Gateway.ProtocGenOpenapiv2.Options.Schema.Parser, new[]{ "JsonSchema", "Discriminator", "ReadOnly", "ExternalDocs", "Example" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Grpc.Gateway.ProtocGenOpenapiv2.Options.JSONSchema), global::Grpc.Gateway.ProtocGenOpenapiv2.Options.JSONSchema.Parser, new[]{ "Ref", "Title", "Description", "Default", "ReadOnly", "Example", "MultipleOf", "Maximum", "ExclusiveMaximum", "Minimum", "ExclusiveMinimum", "MaxLength", "MinLength", "Pattern", "MaxItems", "MinItems", "UniqueItems", "MaxProperties", "MinProperties", "Required", "Array", "Type", "Format", "Enum", "FieldConfiguration", "Extensions" }, null, new[]{ typeof(global::Grpc.Gateway.ProtocGenOpenapiv2.Options.JSONSchema.Types.JSONSchemaSimpleTypes) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Grpc.Gateway.ProtocGenOpenapiv2.Options.JSONSchema.Types.FieldConfiguration), global::Grpc.Gateway.ProtocGenOpenapiv2.Options.JSONSchema.Types.FieldConfiguration.Parser, new[]{ "PathParamName" }, null, null, null, null),
             null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Grpc.Gateway.ProtocGenOpenapiv2.Options.Tag), global::Grpc.Gateway.ProtocGenOpenapiv2.Options.Tag.Parser, new[]{ "Description", "ExternalDocs" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Grpc.Gateway.ProtocGenOpenapiv2.Options.Tag), global::Grpc.Gateway.ProtocGenOpenapiv2.Options.Tag.Parser, new[]{ "Name", "Description", "ExternalDocs", "Extensions" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Grpc.Gateway.ProtocGenOpenapiv2.Options.SecurityDefinitions), global::Grpc.Gateway.ProtocGenOpenapiv2.Options.SecurityDefinitions.Parser, new[]{ "Security" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Grpc.Gateway.ProtocGenOpenapiv2.Options.SecurityScheme), global::Grpc.Gateway.ProtocGenOpenapiv2.Options.SecurityScheme.Parser, new[]{ "Type", "Description", "Name", "In", "Flow", "AuthorizationUrl", "TokenUrl", "Scopes", "Extensions" }, null, new[]{ typeof(global::Grpc.Gateway.ProtocGenOpenapiv2.Options.SecurityScheme.Types.Type), typeof(global::Grpc.Gateway.ProtocGenOpenapiv2.Options.SecurityScheme.Types.In), typeof(global::Grpc.Gateway.ProtocGenOpenapiv2.Options.SecurityScheme.Types.Flow) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Grpc.Gateway.ProtocGenOpenapiv2.Options.SecurityRequirement), global::Grpc.Gateway.ProtocGenOpenapiv2.Options.SecurityRequirement.Parser, new[]{ "SecurityRequirement_" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Grpc.Gateway.ProtocGenOpenapiv2.Options.SecurityRequirement.Types.SecurityRequirementValue), global::Grpc.Gateway.ProtocGenOpenapiv2.Options.SecurityRequirement.Types.SecurityRequirementValue.Parser, new[]{ "Scope" }, null, null, null, null),
@@ -267,6 +272,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
       responses_ = other.responses_.Clone();
       securityDefinitions_ = other.securityDefinitions_ != null ? other.securityDefinitions_.Clone() : null;
       security_ = other.security_.Clone();
+      tags_ = other.tags_.Clone();
       externalDocs_ = other.externalDocs_ != null ? other.externalDocs_.Clone() : null;
       extensions_ = other.extensions_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -436,6 +442,20 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
       get { return security_; }
     }
 
+    /// <summary>Field number for the "tags" field.</summary>
+    public const int TagsFieldNumber = 13;
+    private static readonly pb::FieldCodec<global::Grpc.Gateway.ProtocGenOpenapiv2.Options.Tag> _repeated_tags_codec
+        = pb::FieldCodec.ForMessage(106, global::Grpc.Gateway.ProtocGenOpenapiv2.Options.Tag.Parser);
+    private readonly pbc::RepeatedField<global::Grpc.Gateway.ProtocGenOpenapiv2.Options.Tag> tags_ = new pbc::RepeatedField<global::Grpc.Gateway.ProtocGenOpenapiv2.Options.Tag>();
+    /// <summary>
+    /// A list of tags for API documentation control. Tags can be used for logical
+    /// grouping of operations by resources or any other qualifier.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Grpc.Gateway.ProtocGenOpenapiv2.Options.Tag> Tags {
+      get { return tags_; }
+    }
+
     /// <summary>Field number for the "external_docs" field.</summary>
     public const int ExternalDocsFieldNumber = 14;
     private global::Grpc.Gateway.ProtocGenOpenapiv2.Options.ExternalDocumentation externalDocs_;
@@ -455,6 +475,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     private static readonly pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value>.Codec _map_extensions_codec
         = new pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForMessage(18, global::Google.Protobuf.WellKnownTypes.Value.Parser), 122);
     private readonly pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value> extensions_ = new pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value>();
+    /// <summary>
+    /// Custom properties that start with "x-" such as "x-foo" used to describe
+    /// extra functionality that is not covered by the standard OpenAPI Specification.
+    /// See: https://swagger.io/docs/specification/2-0/swagger-extensions/
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value> Extensions {
       get { return extensions_; }
@@ -483,6 +508,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
       if (!Responses.Equals(other.Responses)) return false;
       if (!object.Equals(SecurityDefinitions, other.SecurityDefinitions)) return false;
       if(!security_.Equals(other.security_)) return false;
+      if(!tags_.Equals(other.tags_)) return false;
       if (!object.Equals(ExternalDocs, other.ExternalDocs)) return false;
       if (!Extensions.Equals(other.Extensions)) return false;
       return Equals(_unknownFields, other._unknownFields);
@@ -501,6 +527,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
       hash ^= Responses.GetHashCode();
       if (securityDefinitions_ != null) hash ^= SecurityDefinitions.GetHashCode();
       hash ^= security_.GetHashCode();
+      hash ^= tags_.GetHashCode();
       if (externalDocs_ != null) hash ^= ExternalDocs.GetHashCode();
       hash ^= Extensions.GetHashCode();
       if (_unknownFields != null) {
@@ -544,6 +571,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
         output.WriteMessage(SecurityDefinitions);
       }
       security_.WriteTo(output, _repeated_security_codec);
+      tags_.WriteTo(output, _repeated_tags_codec);
       if (externalDocs_ != null) {
         output.WriteRawTag(114);
         output.WriteMessage(ExternalDocs);
@@ -583,6 +611,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
         output.WriteMessage(SecurityDefinitions);
       }
       security_.WriteTo(ref output, _repeated_security_codec);
+      tags_.WriteTo(ref output, _repeated_tags_codec);
       if (externalDocs_ != null) {
         output.WriteRawTag(114);
         output.WriteMessage(ExternalDocs);
@@ -617,6 +646,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(SecurityDefinitions);
       }
       size += security_.CalculateSize(_repeated_security_codec);
+      size += tags_.CalculateSize(_repeated_tags_codec);
       if (externalDocs_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(ExternalDocs);
       }
@@ -658,6 +688,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
         SecurityDefinitions.MergeFrom(other.SecurityDefinitions);
       }
       security_.Add(other.security_);
+      tags_.Add(other.tags_);
       if (other.externalDocs_ != null) {
         if (externalDocs_ == null) {
           ExternalDocs = new global::Grpc.Gateway.ProtocGenOpenapiv2.Options.ExternalDocumentation();
@@ -724,6 +755,10 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
           }
           case 98: {
             security_.AddEntriesFrom(input, _repeated_security_codec);
+            break;
+          }
+          case 106: {
+            tags_.AddEntriesFrom(input, _repeated_tags_codec);
             break;
           }
           case 114: {
@@ -796,6 +831,10 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
           }
           case 98: {
             security_.AddEntriesFrom(ref input, _repeated_security_codec);
+            break;
+          }
+          case 106: {
+            tags_.AddEntriesFrom(ref input, _repeated_tags_codec);
             break;
           }
           case 114: {
@@ -1063,6 +1102,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     private static readonly pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value>.Codec _map_extensions_codec
         = new pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForMessage(18, global::Google.Protobuf.WellKnownTypes.Value.Parser), 106);
     private readonly pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value> extensions_ = new pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value>();
+    /// <summary>
+    /// Custom properties that start with "x-" such as "x-foo" used to describe
+    /// extra functionality that is not covered by the standard OpenAPI Specification.
+    /// See: https://swagger.io/docs/specification/2-0/swagger-extensions/
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value> Extensions {
       get { return extensions_; }
@@ -1845,6 +1889,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     private static readonly pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value>.Codec _map_extensions_codec
         = new pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForMessage(18, global::Google.Protobuf.WellKnownTypes.Value.Parser), 42);
     private readonly pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value> extensions_ = new pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value>();
+    /// <summary>
+    /// Custom properties that start with "x-" such as "x-foo" used to describe
+    /// extra functionality that is not covered by the standard OpenAPI Specification.
+    /// See: https://swagger.io/docs/specification/2-0/swagger-extensions/
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value> Extensions {
       get { return extensions_; }
@@ -2208,6 +2257,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     private static readonly pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value>.Codec _map_extensions_codec
         = new pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForMessage(18, global::Google.Protobuf.WellKnownTypes.Value.Parser), 58);
     private readonly pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value> extensions_ = new pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value>();
+    /// <summary>
+    /// Custom properties that start with "x-" such as "x-foo" used to describe
+    /// extra functionality that is not covered by the standard OpenAPI Specification.
+    /// See: https://swagger.io/docs/specification/2-0/swagger-extensions/
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value> Extensions {
       get { return extensions_; }
@@ -3996,6 +4050,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     private static readonly pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value>.Codec _map_extensions_codec
         = new pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForMessage(18, global::Google.Protobuf.WellKnownTypes.Value.Parser), 386);
     private readonly pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value> extensions_ = new pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value>();
+    /// <summary>
+    /// Custom properties that start with "x-" such as "x-foo" used to describe
+    /// extra functionality that is not covered by the standard OpenAPI Specification.
+    /// See: https://swagger.io/docs/specification/2-0/swagger-extensions/
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value> Extensions {
       get { return extensions_; }
@@ -4919,14 +4978,32 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public Tag(Tag other) : this() {
+      name_ = other.name_;
       description_ = other.description_;
       externalDocs_ = other.externalDocs_ != null ? other.externalDocs_.Clone() : null;
+      extensions_ = other.extensions_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public Tag Clone() {
       return new Tag(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    /// <summary>
+    /// The name of the tag. Use it to allow override of the name of a
+    /// global Tag object, then use that name to reference the tag throughout the
+    /// OpenAPI file.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
     }
 
     /// <summary>Field number for the "description" field.</summary>
@@ -4958,6 +5035,21 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
       }
     }
 
+    /// <summary>Field number for the "extensions" field.</summary>
+    public const int ExtensionsFieldNumber = 4;
+    private static readonly pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value>.Codec _map_extensions_codec
+        = new pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForMessage(18, global::Google.Protobuf.WellKnownTypes.Value.Parser), 34);
+    private readonly pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value> extensions_ = new pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value>();
+    /// <summary>
+    /// Custom properties that start with "x-" such as "x-foo" used to describe
+    /// extra functionality that is not covered by the standard OpenAPI Specification.
+    /// See: https://swagger.io/docs/specification/2-0/swagger-extensions/
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value> Extensions {
+      get { return extensions_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Tag);
@@ -4971,16 +5063,20 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
       if (ReferenceEquals(other, this)) {
         return true;
       }
+      if (Name != other.Name) return false;
       if (Description != other.Description) return false;
       if (!object.Equals(ExternalDocs, other.ExternalDocs)) return false;
+      if (!Extensions.Equals(other.Extensions)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
       if (externalDocs_ != null) hash ^= ExternalDocs.GetHashCode();
+      hash ^= Extensions.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -4997,6 +5093,10 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
       if (Description.Length != 0) {
         output.WriteRawTag(18);
         output.WriteString(Description);
@@ -5005,6 +5105,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
         output.WriteRawTag(26);
         output.WriteMessage(ExternalDocs);
       }
+      extensions_.WriteTo(output, _map_extensions_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -5014,6 +5115,10 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
       if (Description.Length != 0) {
         output.WriteRawTag(18);
         output.WriteString(Description);
@@ -5022,6 +5127,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
         output.WriteRawTag(26);
         output.WriteMessage(ExternalDocs);
       }
+      extensions_.WriteTo(ref output, _map_extensions_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -5031,12 +5137,16 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
       if (Description.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
       }
       if (externalDocs_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(ExternalDocs);
       }
+      size += extensions_.CalculateSize(_map_extensions_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -5048,6 +5158,9 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
       if (other == null) {
         return;
       }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
       if (other.Description.Length != 0) {
         Description = other.Description;
       }
@@ -5057,6 +5170,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
         }
         ExternalDocs.MergeFrom(other.ExternalDocs);
       }
+      extensions_.Add(other.extensions_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -5071,6 +5185,10 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
           case 18: {
             Description = input.ReadString();
             break;
@@ -5080,6 +5198,10 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
               ExternalDocs = new global::Grpc.Gateway.ProtocGenOpenapiv2.Options.ExternalDocumentation();
             }
             input.ReadMessage(ExternalDocs);
+            break;
+          }
+          case 34: {
+            extensions_.AddEntriesFrom(input, _map_extensions_codec);
             break;
           }
         }
@@ -5096,6 +5218,10 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
           case 18: {
             Description = input.ReadString();
             break;
@@ -5105,6 +5231,10 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
               ExternalDocs = new global::Grpc.Gateway.ProtocGenOpenapiv2.Options.ExternalDocumentation();
             }
             input.ReadMessage(ExternalDocs);
+            break;
+          }
+          case 34: {
+            extensions_.AddEntriesFrom(ref input, _map_extensions_codec);
             break;
           }
         }
@@ -5474,6 +5604,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     private static readonly pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value>.Codec _map_extensions_codec
         = new pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForMessage(18, global::Google.Protobuf.WellKnownTypes.Value.Parser), 74);
     private readonly pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value> extensions_ = new pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value>();
+    /// <summary>
+    /// Custom properties that start with "x-" such as "x-foo" used to describe
+    /// extra functionality that is not covered by the standard OpenAPI Specification.
+    /// See: https://swagger.io/docs/specification/2-0/swagger-extensions/
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::MapField<string, global::Google.Protobuf.WellKnownTypes.Value> Extensions {
       get { return extensions_; }

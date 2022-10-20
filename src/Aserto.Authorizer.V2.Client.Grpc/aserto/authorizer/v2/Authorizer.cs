@@ -31,127 +31,140 @@ namespace Aserto.Authorizer.V2 {
             "b3RvYnVmL2ZpZWxkX21hc2sucHJvdG8aL2FzZXJ0by9hdXRob3JpemVyL3Yy",
             "L2FwaS9pZGVudGl0eV9jb250ZXh0LnByb3RvGi1hc2VydG8vYXV0aG9yaXpl",
             "ci92Mi9hcGkvcG9saWN5X2NvbnRleHQucHJvdG8aJWFzZXJ0by9hdXRob3Jp",
-            "emVyL3YyL2FwaS9tb2R1bGUucHJvdG8iDQoLSW5mb1JlcXVlc3QiVwoMSW5m",
-            "b1Jlc3BvbnNlEg8KB3ZlcnNpb24YASABKAkSDgoGY29tbWl0GAIgASgJEgwK",
-            "BGRhdGUYAyABKAkSCgoCb3MYBCABKAkSDAoEYXJjaBgFIAEoCSJOChBHZXRQ",
-            "b2xpY3lSZXF1ZXN0EgoKAmlkGAEgASgJEi4KCmZpZWxkX21hc2sYAiABKAsy",
-            "Gi5nb29nbGUucHJvdG9idWYuRmllbGRNYXNrIkUKEUdldFBvbGljeVJlc3Bv",
-            "bnNlEjAKBnJlc3VsdBgBIAEoCzIgLmFzZXJ0by5hdXRob3JpemVyLnYyLmFw",
-            "aS5Nb2R1bGUiRQoTTGlzdFBvbGljaWVzUmVxdWVzdBIuCgpmaWVsZF9tYXNr",
-            "GAEgASgLMhouZ29vZ2xlLnByb3RvYnVmLkZpZWxkTWFzayJIChRMaXN0UG9s",
-            "aWNpZXNSZXNwb25zZRIwCgZyZXN1bHQYASADKAsyIC5hc2VydG8uYXV0aG9y",
-            "aXplci52Mi5hcGkuTW9kdWxlIooCChNEZWNpc2lvblRyZWVSZXF1ZXN0Ej8K",
-            "DnBvbGljeV9jb250ZXh0GAEgASgLMicuYXNlcnRvLmF1dGhvcml6ZXIudjIu",
-            "YXBpLlBvbGljeUNvbnRleHQSQwoQaWRlbnRpdHlfY29udGV4dBgCIAEoCzIp",
-            "LmFzZXJ0by5hdXRob3JpemVyLnYyLmFwaS5JZGVudGl0eUNvbnRleHQSOgoH",
-            "b3B0aW9ucxgDIAEoCzIpLmFzZXJ0by5hdXRob3JpemVyLnYyLkRlY2lzaW9u",
-            "VHJlZU9wdGlvbnMSMQoQcmVzb3VyY2VfY29udGV4dBgEIAEoCzIXLmdvb2ds",
-            "ZS5wcm90b2J1Zi5TdHJ1Y3QiWAoTRGVjaXNpb25UcmVlT3B0aW9ucxI7Cg5w",
-            "YXRoX3NlcGFyYXRvchgBIAEoDjIjLmFzZXJ0by5hdXRob3JpemVyLnYyLlBh",
-            "dGhTZXBhcmF0b3JKBAgCEAMiVgoURGVjaXNpb25UcmVlUmVzcG9uc2USEQoJ",
-            "cGF0aF9yb290GAEgASgJEiUKBHBhdGgYAyABKAsyFy5nb29nbGUucHJvdG9i",
-            "dWYuU3RydWN0SgQIAhADIsQBCglJc1JlcXVlc3QSPwoOcG9saWN5X2NvbnRl",
-            "eHQYASABKAsyJy5hc2VydG8uYXV0aG9yaXplci52Mi5hcGkuUG9saWN5Q29u",
-            "dGV4dBJDChBpZGVudGl0eV9jb250ZXh0GAIgASgLMikuYXNlcnRvLmF1dGhv",
-            "cml6ZXIudjIuYXBpLklkZW50aXR5Q29udGV4dBIxChByZXNvdXJjZV9jb250",
-            "ZXh0GAMgASgLMhcuZ29vZ2xlLnByb3RvYnVmLlN0cnVjdCIoCghEZWNpc2lv",
-            "bhIQCghkZWNpc2lvbhgBIAEoCRIKCgJpcxgCIAEoCCI/CgpJc1Jlc3BvbnNl",
-            "EjEKCWRlY2lzaW9ucxgBIAMoCzIeLmFzZXJ0by5hdXRob3JpemVyLnYyLkRl",
-            "Y2lzaW9uInsKDFF1ZXJ5T3B0aW9ucxIPCgdtZXRyaWNzGAEgASgIEhIKCmlu",
-            "c3RydW1lbnQYAiABKAgSLwoFdHJhY2UYAyABKA4yIC5hc2VydG8uYXV0aG9y",
-            "aXplci52Mi5UcmFjZUxldmVsEhUKDXRyYWNlX3N1bW1hcnkYBCABKAgi9wIK",
-            "DFF1ZXJ5UmVxdWVzdBINCgVxdWVyeRgBIAEoCRINCgVpbnB1dBgCIAEoCRI4",
-            "CgdvcHRpb25zGAMgASgLMiIuYXNlcnRvLmF1dGhvcml6ZXIudjIuUXVlcnlP",
-            "cHRpb25zSACIAQESRAoOcG9saWN5X2NvbnRleHQYBCABKAsyJy5hc2VydG8u",
-            "YXV0aG9yaXplci52Mi5hcGkuUG9saWN5Q29udGV4dEgBiAEBEkgKEGlkZW50",
-            "aXR5X2NvbnRleHQYBSABKAsyKS5hc2VydG8uYXV0aG9yaXplci52Mi5hcGku",
-            "SWRlbnRpdHlDb250ZXh0SAKIAQESNgoQcmVzb3VyY2VfY29udGV4dBgGIAEo",
-            "CzIXLmdvb2dsZS5wcm90b2J1Zi5TdHJ1Y3RIA4gBAUIKCghfb3B0aW9uc0IR",
-            "Cg9fcG9saWN5X2NvbnRleHRCEwoRX2lkZW50aXR5X2NvbnRleHRCEwoRX3Jl",
-            "c291cmNlX2NvbnRleHQipQMKDkNvbXBpbGVSZXF1ZXN0Eg0KBXF1ZXJ5GAEg",
-            "ASgJEg0KBWlucHV0GAIgASgJEhAKCHVua25vd25zGAMgAygJEhgKEGRpc2Fi",
-            "bGVfaW5saW5pbmcYBCADKAkSOAoHb3B0aW9ucxgFIAEoCzIiLmFzZXJ0by5h",
-            "dXRob3JpemVyLnYyLlF1ZXJ5T3B0aW9uc0gAiAEBEkQKDnBvbGljeV9jb250",
-            "ZXh0GAYgASgLMicuYXNlcnRvLmF1dGhvcml6ZXIudjIuYXBpLlBvbGljeUNv",
-            "bnRleHRIAYgBARJIChBpZGVudGl0eV9jb250ZXh0GAcgASgLMikuYXNlcnRv",
-            "LmF1dGhvcml6ZXIudjIuYXBpLklkZW50aXR5Q29udGV4dEgCiAEBEjYKEHJl",
-            "c291cmNlX2NvbnRleHQYCCABKAsyFy5nb29nbGUucHJvdG9idWYuU3RydWN0",
-            "SAOIAQFCCgoIX29wdGlvbnNCEQoPX3BvbGljeV9jb250ZXh0QhMKEV9pZGVu",
-            "dGl0eV9jb250ZXh0QhMKEV9yZXNvdXJjZV9jb250ZXh0IqMBCg9Db21waWxl",
-            "UmVzcG9uc2USJwoGcmVzdWx0GAEgASgLMhcuZ29vZ2xlLnByb3RvYnVmLlN0",
-            "cnVjdBIoCgdtZXRyaWNzGAIgASgLMhcuZ29vZ2xlLnByb3RvYnVmLlN0cnVj",
-            "dBImCgV0cmFjZRgDIAMoCzIXLmdvb2dsZS5wcm90b2J1Zi5TdHJ1Y3QSFQoN",
-            "dHJhY2Vfc3VtbWFyeRgEIAMoCSKjAQoNUXVlcnlSZXNwb25zZRIpCghyZXNw",
-            "b25zZRgBIAEoCzIXLmdvb2dsZS5wcm90b2J1Zi5TdHJ1Y3QSKAoHbWV0cmlj",
-            "cxgCIAEoCzIXLmdvb2dsZS5wcm90b2J1Zi5TdHJ1Y3QSJgoFdHJhY2UYAyAD",
-            "KAsyFy5nb29nbGUucHJvdG9idWYuU3RydWN0EhUKDXRyYWNlX3N1bW1hcnkY",
-            "BCADKAkqXQoNUGF0aFNlcGFyYXRvchIaChZQQVRIX1NFUEFSQVRPUl9VTktO",
-            "T1dOEAASFgoSUEFUSF9TRVBBUkFUT1JfRE9UEAESGAoUUEFUSF9TRVBBUkFU",
-            "T1JfU0xBU0gQAip+CgpUcmFjZUxldmVsEhcKE1RSQUNFX0xFVkVMX1VOS05P",
-            "V04QABITCg9UUkFDRV9MRVZFTF9PRkYQARIUChBUUkFDRV9MRVZFTF9GVUxM",
-            "EAISFQoRVFJBQ0VfTEVWRUxfTk9URVMQAxIVChFUUkFDRV9MRVZFTF9GQUlM",
-            "UxAEMrwNCgpBdXRob3JpemVyEpECCgxEZWNpc2lvblRyZWUSKS5hc2VydG8u",
-            "YXV0aG9yaXplci52Mi5EZWNpc2lvblRyZWVSZXF1ZXN0GiouYXNlcnRvLmF1",
-            "dGhvcml6ZXIudjIuRGVjaXNpb25UcmVlUmVzcG9uc2UiqQGC0+STAh8iGi9h",
-            "cGkvdjIvYXV0aHovZGVjaXNpb250cmVlOgEqkkGAAQoKYXV0aG9yaXplchIN",
-            "RGVjaXNpb24gdHJlZRoxUmV0dXJucyBkZWNpc2lvbiB0cmVlIGZvciBnaXZl",
-            "biBpZGVudGl0eSBjb250ZXh0LioYYXV0aG9yaXplci5kZWNpc2lvbl90cmVl",
-            "YhYKFAoQQXV0aG9yaXplckFQSUtleRIAEo8CCgJJcxIfLmFzZXJ0by5hdXRo",
-            "b3JpemVyLnYyLklzUmVxdWVzdBogLmFzZXJ0by5hdXRob3JpemVyLnYyLklz",
-            "UmVzcG9uc2UixQGC0+STAhUiEC9hcGkvdjIvYXV0aHovaXM6ASqSQaYBCgph",
-            "dXRob3JpemVyEg9JcyAoYXV0aG9yaXplZCkaYERldGVybWluZXMgaWYgaWRl",
-            "bnRpdHkgY29udGV4dCBpcyBhdXRob3JpemVkIHRvIGFjY2VzcyB0aGUgcmVz",
-            "b3VyY2UgZ3VhcmRlZCBieSB0aGUgZ2l2ZW4gcG9saWN5LioNYXV0aG9yaXpl",
-            "ci5pc2IWChQKEEF1dGhvcml6ZXJBUElLZXkSABLzAQoFUXVlcnkSIi5hc2Vy",
-            "dG8uYXV0aG9yaXplci52Mi5RdWVyeVJlcXVlc3QaIy5hc2VydG8uYXV0aG9y",
-            "aXplci52Mi5RdWVyeVJlc3BvbnNlIqABgtPkkwIYIhMvYXBpL3YyL2F1dGh6",
-            "L3F1ZXJ5OgEqkkF/CgphdXRob3JpemVyEhJRdWVyeSAoYXV0aG9yaXplZCka",
-            "M0V4ZWN1dGVzIGEgcmVnbyBxdWVyeSBvbiB0aGUgbG9hZGVkIHBvbGljeSBy",
-            "dW50aW1lLioQYXV0aG9yaXplci5xdWVyeWIWChQKEEF1dGhvcml6ZXJBUElL",
-            "ZXkSABKDAgoHQ29tcGlsZRIkLmFzZXJ0by5hdXRob3JpemVyLnYyLkNvbXBp",
-            "bGVSZXF1ZXN0GiUuYXNlcnRvLmF1dGhvcml6ZXIudjIuQ29tcGlsZVJlc3Bv",
-            "bnNlIqoBgtPkkwIaIhUvYXBpL3YyL2F1dGh6L2NvbXBpbGU6ASqSQYYBCgph",
-            "dXRob3JpemVyEhRDb21waWxlIChhdXRob3JpemVkKRo2RXhlY3V0ZXMgYSBw",
-            "YXJ0aWFsIHF1ZXJ5IG9uIHRoZSBsb2FkZWQgcG9saWN5IHJ1bnRpbWUuKhJh",
-            "dXRob3JpemVyLmNvbXBpbGViFgoUChBBdXRob3JpemVyQVBJS2V5EgAS9gEK",
-            "DExpc3RQb2xpY2llcxIpLmFzZXJ0by5hdXRob3JpemVyLnYyLkxpc3RQb2xp",
-            "Y2llc1JlcXVlc3QaKi5hc2VydG8uYXV0aG9yaXplci52Mi5MaXN0UG9saWNp",
-            "ZXNSZXNwb25zZSKOAYLT5JMCEhIQL2FwaS92Mi9wb2xpY2llc5JBcwoKYXV0",
-            "aG9yaXplchINTGlzdCBQb2xpY2llcxovTGlzdHMgdGhlIHBvbGljeSBtb2R1",
-            "bGVzIGZvciB0aGUgcG9saWN5IGJ1bmRsZS4qDXBvbGljaWVzLmxpc3RiFgoU",
-            "ChBBdXRob3JpemVyQVBJS2V5EgAS9AEKCUdldFBvbGljeRImLmFzZXJ0by5h",
-            "dXRob3JpemVyLnYyLkdldFBvbGljeVJlcXVlc3QaJy5hc2VydG8uYXV0aG9y",
-            "aXplci52Mi5HZXRQb2xpY3lSZXNwb25zZSKVAYLT5JMCHBIaL2FwaS92Mi9w",
-            "b2xpY2llcy97aWQ9Ki8qKn2SQXAKCmF1dGhvcml6ZXISCkdldCBQb2xpY3ka",
-            "MEdldHMgdGhlIHBvbGljeSBtb2R1bGVzIGZvciB0aGUgZ2l2ZW4gbW9kdWxl",
-            "IElkLioMcG9saWNpZXMuZ2V0YhYKFAoQQXV0aG9yaXplckFQSUtleRIAEpsB",
-            "CgRJbmZvEiEuYXNlcnRvLmF1dGhvcml6ZXIudjIuSW5mb1JlcXVlc3QaIi5h",
-            "c2VydG8uYXV0aG9yaXplci52Mi5JbmZvUmVzcG9uc2UiTILT5JMCDhIML2Fw",
-            "aS92Mi9pbmZvkkE1CgRJbmZvEgRJbmZvGhtSZXR1cm4gdmVyc2lvbiBpbmZv",
-            "cm1hdGlvbi4qCGluZm8uZ2V0YgBCyQFaQ2dpdGh1Yi5jb20vYXNlcnRvLWRl",
-            "di9nby1hdXRob3JpemVyL2FzZXJ0by9hdXRob3JpemVyL3YyO2F1dGhvcml6",
-            "ZXKqAhRBc2VydG8uQXV0aG9yaXplci5WMpJBaioBAjIQYXBwbGljYXRpb24v",
-            "anNvbjoQYXBwbGljYXRpb24vanNvblopCicKEEF1dGhvcml6ZXJBUElLZXkS",
-            "EwgCGg1hdXRob3JpemF0aW9uIAJiFgoUChBBdXRob3JpemVyQVBJS2V5EgBi",
-            "BnByb3RvMw=="));
+            "emVyL3YyL2FwaS9tb2R1bGUucHJvdG8aLmFzZXJ0by9hdXRob3JpemVyL3Yy",
+            "L2FwaS9wb2xpY3lfaW5zdGFuY2UucHJvdG8iDQoLSW5mb1JlcXVlc3QiVwoM",
+            "SW5mb1Jlc3BvbnNlEg8KB3ZlcnNpb24YASABKAkSDgoGY29tbWl0GAIgASgJ",
+            "EgwKBGRhdGUYAyABKAkSCgoCb3MYBCABKAkSDAoEYXJjaBgFIAEoCSKqAQoQ",
+            "R2V0UG9saWN5UmVxdWVzdBIKCgJpZBgBIAEoCRIuCgpmaWVsZF9tYXNrGAIg",
+            "ASgLMhouZ29vZ2xlLnByb3RvYnVmLkZpZWxkTWFzaxJGCg9wb2xpY3lfaW5z",
+            "dGFuY2UYAyABKAsyKC5hc2VydG8uYXV0aG9yaXplci52Mi5hcGkuUG9saWN5",
+            "SW5zdGFuY2VIAIgBAUISChBfcG9saWN5X2luc3RhbmNlIkUKEUdldFBvbGlj",
+            "eVJlc3BvbnNlEjAKBnJlc3VsdBgBIAEoCzIgLmFzZXJ0by5hdXRob3JpemVy",
+            "LnYyLmFwaS5Nb2R1bGUioQEKE0xpc3RQb2xpY2llc1JlcXVlc3QSLgoKZmll",
+            "bGRfbWFzaxgBIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5GaWVsZE1hc2sSRgoP",
+            "cG9saWN5X2luc3RhbmNlGAIgASgLMiguYXNlcnRvLmF1dGhvcml6ZXIudjIu",
+            "YXBpLlBvbGljeUluc3RhbmNlSACIAQFCEgoQX3BvbGljeV9pbnN0YW5jZSJI",
+            "ChRMaXN0UG9saWNpZXNSZXNwb25zZRIwCgZyZXN1bHQYASADKAsyIC5hc2Vy",
+            "dG8uYXV0aG9yaXplci52Mi5hcGkuTW9kdWxlIuYCChNEZWNpc2lvblRyZWVS",
+            "ZXF1ZXN0Ej8KDnBvbGljeV9jb250ZXh0GAEgASgLMicuYXNlcnRvLmF1dGhv",
+            "cml6ZXIudjIuYXBpLlBvbGljeUNvbnRleHQSQwoQaWRlbnRpdHlfY29udGV4",
+            "dBgCIAEoCzIpLmFzZXJ0by5hdXRob3JpemVyLnYyLmFwaS5JZGVudGl0eUNv",
+            "bnRleHQSOgoHb3B0aW9ucxgDIAEoCzIpLmFzZXJ0by5hdXRob3JpemVyLnYy",
+            "LkRlY2lzaW9uVHJlZU9wdGlvbnMSMQoQcmVzb3VyY2VfY29udGV4dBgEIAEo",
+            "CzIXLmdvb2dsZS5wcm90b2J1Zi5TdHJ1Y3QSRgoPcG9saWN5X2luc3RhbmNl",
+            "GAUgASgLMiguYXNlcnRvLmF1dGhvcml6ZXIudjIuYXBpLlBvbGljeUluc3Rh",
+            "bmNlSACIAQFCEgoQX3BvbGljeV9pbnN0YW5jZSJYChNEZWNpc2lvblRyZWVP",
+            "cHRpb25zEjsKDnBhdGhfc2VwYXJhdG9yGAEgASgOMiMuYXNlcnRvLmF1dGhv",
+            "cml6ZXIudjIuUGF0aFNlcGFyYXRvckoECAIQAyJWChREZWNpc2lvblRyZWVS",
+            "ZXNwb25zZRIRCglwYXRoX3Jvb3QYASABKAkSJQoEcGF0aBgDIAEoCzIXLmdv",
+            "b2dsZS5wcm90b2J1Zi5TdHJ1Y3RKBAgCEAMioAIKCUlzUmVxdWVzdBI/Cg5w",
+            "b2xpY3lfY29udGV4dBgBIAEoCzInLmFzZXJ0by5hdXRob3JpemVyLnYyLmFw",
+            "aS5Qb2xpY3lDb250ZXh0EkMKEGlkZW50aXR5X2NvbnRleHQYAiABKAsyKS5h",
+            "c2VydG8uYXV0aG9yaXplci52Mi5hcGkuSWRlbnRpdHlDb250ZXh0EjEKEHJl",
+            "c291cmNlX2NvbnRleHQYAyABKAsyFy5nb29nbGUucHJvdG9idWYuU3RydWN0",
+            "EkYKD3BvbGljeV9pbnN0YW5jZRgEIAEoCzIoLmFzZXJ0by5hdXRob3JpemVy",
+            "LnYyLmFwaS5Qb2xpY3lJbnN0YW5jZUgAiAEBQhIKEF9wb2xpY3lfaW5zdGFu",
+            "Y2UiKAoIRGVjaXNpb24SEAoIZGVjaXNpb24YASABKAkSCgoCaXMYAiABKAgi",
+            "PwoKSXNSZXNwb25zZRIxCglkZWNpc2lvbnMYASADKAsyHi5hc2VydG8uYXV0",
+            "aG9yaXplci52Mi5EZWNpc2lvbiJ7CgxRdWVyeU9wdGlvbnMSDwoHbWV0cmlj",
+            "cxgBIAEoCBISCgppbnN0cnVtZW50GAIgASgIEi8KBXRyYWNlGAMgASgOMiAu",
+            "YXNlcnRvLmF1dGhvcml6ZXIudjIuVHJhY2VMZXZlbBIVCg10cmFjZV9zdW1t",
+            "YXJ5GAQgASgIItMDCgxRdWVyeVJlcXVlc3QSDQoFcXVlcnkYASABKAkSDQoF",
+            "aW5wdXQYAiABKAkSOAoHb3B0aW9ucxgDIAEoCzIiLmFzZXJ0by5hdXRob3Jp",
+            "emVyLnYyLlF1ZXJ5T3B0aW9uc0gAiAEBEkQKDnBvbGljeV9jb250ZXh0GAQg",
+            "ASgLMicuYXNlcnRvLmF1dGhvcml6ZXIudjIuYXBpLlBvbGljeUNvbnRleHRI",
+            "AYgBARJIChBpZGVudGl0eV9jb250ZXh0GAUgASgLMikuYXNlcnRvLmF1dGhv",
+            "cml6ZXIudjIuYXBpLklkZW50aXR5Q29udGV4dEgCiAEBEjYKEHJlc291cmNl",
+            "X2NvbnRleHQYBiABKAsyFy5nb29nbGUucHJvdG9idWYuU3RydWN0SAOIAQES",
+            "RgoPcG9saWN5X2luc3RhbmNlGAcgASgLMiguYXNlcnRvLmF1dGhvcml6ZXIu",
+            "djIuYXBpLlBvbGljeUluc3RhbmNlSASIAQFCCgoIX29wdGlvbnNCEQoPX3Bv",
+            "bGljeV9jb250ZXh0QhMKEV9pZGVudGl0eV9jb250ZXh0QhMKEV9yZXNvdXJj",
+            "ZV9jb250ZXh0QhIKEF9wb2xpY3lfaW5zdGFuY2UigQQKDkNvbXBpbGVSZXF1",
+            "ZXN0Eg0KBXF1ZXJ5GAEgASgJEg0KBWlucHV0GAIgASgJEhAKCHVua25vd25z",
+            "GAMgAygJEhgKEGRpc2FibGVfaW5saW5pbmcYBCADKAkSOAoHb3B0aW9ucxgF",
+            "IAEoCzIiLmFzZXJ0by5hdXRob3JpemVyLnYyLlF1ZXJ5T3B0aW9uc0gAiAEB",
+            "EkQKDnBvbGljeV9jb250ZXh0GAYgASgLMicuYXNlcnRvLmF1dGhvcml6ZXIu",
+            "djIuYXBpLlBvbGljeUNvbnRleHRIAYgBARJIChBpZGVudGl0eV9jb250ZXh0",
+            "GAcgASgLMikuYXNlcnRvLmF1dGhvcml6ZXIudjIuYXBpLklkZW50aXR5Q29u",
+            "dGV4dEgCiAEBEjYKEHJlc291cmNlX2NvbnRleHQYCCABKAsyFy5nb29nbGUu",
+            "cHJvdG9idWYuU3RydWN0SAOIAQESRgoPcG9saWN5X2luc3RhbmNlGAkgASgL",
+            "MiguYXNlcnRvLmF1dGhvcml6ZXIudjIuYXBpLlBvbGljeUluc3RhbmNlSASI",
+            "AQFCCgoIX29wdGlvbnNCEQoPX3BvbGljeV9jb250ZXh0QhMKEV9pZGVudGl0",
+            "eV9jb250ZXh0QhMKEV9yZXNvdXJjZV9jb250ZXh0QhIKEF9wb2xpY3lfaW5z",
+            "dGFuY2UiowEKD0NvbXBpbGVSZXNwb25zZRInCgZyZXN1bHQYASABKAsyFy5n",
+            "b29nbGUucHJvdG9idWYuU3RydWN0EigKB21ldHJpY3MYAiABKAsyFy5nb29n",
+            "bGUucHJvdG9idWYuU3RydWN0EiYKBXRyYWNlGAMgAygLMhcuZ29vZ2xlLnBy",
+            "b3RvYnVmLlN0cnVjdBIVCg10cmFjZV9zdW1tYXJ5GAQgAygJIqMBCg1RdWVy",
+            "eVJlc3BvbnNlEikKCHJlc3BvbnNlGAEgASgLMhcuZ29vZ2xlLnByb3RvYnVm",
+            "LlN0cnVjdBIoCgdtZXRyaWNzGAIgASgLMhcuZ29vZ2xlLnByb3RvYnVmLlN0",
+            "cnVjdBImCgV0cmFjZRgDIAMoCzIXLmdvb2dsZS5wcm90b2J1Zi5TdHJ1Y3QS",
+            "FQoNdHJhY2Vfc3VtbWFyeRgEIAMoCSpdCg1QYXRoU2VwYXJhdG9yEhoKFlBB",
+            "VEhfU0VQQVJBVE9SX1VOS05PV04QABIWChJQQVRIX1NFUEFSQVRPUl9ET1QQ",
+            "ARIYChRQQVRIX1NFUEFSQVRPUl9TTEFTSBACKn4KClRyYWNlTGV2ZWwSFwoT",
+            "VFJBQ0VfTEVWRUxfVU5LTk9XThAAEhMKD1RSQUNFX0xFVkVMX09GRhABEhQK",
+            "EFRSQUNFX0xFVkVMX0ZVTEwQAhIVChFUUkFDRV9MRVZFTF9OT1RFUxADEhUK",
+            "EVRSQUNFX0xFVkVMX0ZBSUxTEAQytA0KCkF1dGhvcml6ZXISkQIKDERlY2lz",
+            "aW9uVHJlZRIpLmFzZXJ0by5hdXRob3JpemVyLnYyLkRlY2lzaW9uVHJlZVJl",
+            "cXVlc3QaKi5hc2VydG8uYXV0aG9yaXplci52Mi5EZWNpc2lvblRyZWVSZXNw",
+            "b25zZSKpAYLT5JMCHyIaL2FwaS92Mi9hdXRoei9kZWNpc2lvbnRyZWU6ASqS",
+            "QYABCgpBdXRob3JpemVyEg1EZWNpc2lvbiB0cmVlGjFSZXR1cm5zIGRlY2lz",
+            "aW9uIHRyZWUgZm9yIGdpdmVuIGlkZW50aXR5IGNvbnRleHQuKhhhdXRob3Jp",
+            "emVyLmRlY2lzaW9uX3RyZWViFgoUChBBdXRob3JpemVyQVBJS2V5EgASjwIK",
+            "AklzEh8uYXNlcnRvLmF1dGhvcml6ZXIudjIuSXNSZXF1ZXN0GiAuYXNlcnRv",
+            "LmF1dGhvcml6ZXIudjIuSXNSZXNwb25zZSLFAYLT5JMCFSIQL2FwaS92Mi9h",
+            "dXRoei9pczoBKpJBpgEKCkF1dGhvcml6ZXISD0lzIChhdXRob3JpemVkKRpg",
+            "RGV0ZXJtaW5lcyBpZiBpZGVudGl0eSBjb250ZXh0IGlzIGF1dGhvcml6ZWQg",
+            "dG8gYWNjZXNzIHRoZSByZXNvdXJjZSBndWFyZGVkIGJ5IHRoZSBnaXZlbiBw",
+            "b2xpY3kuKg1hdXRob3JpemVyLmlzYhYKFAoQQXV0aG9yaXplckFQSUtleRIA",
+            "EvMBCgVRdWVyeRIiLmFzZXJ0by5hdXRob3JpemVyLnYyLlF1ZXJ5UmVxdWVz",
+            "dBojLmFzZXJ0by5hdXRob3JpemVyLnYyLlF1ZXJ5UmVzcG9uc2UioAGC0+ST",
+            "AhgiEy9hcGkvdjIvYXV0aHovcXVlcnk6ASqSQX8KCkF1dGhvcml6ZXISElF1",
+            "ZXJ5IChhdXRob3JpemVkKRozRXhlY3V0ZXMgYSByZWdvIHF1ZXJ5IG9uIHRo",
+            "ZSBsb2FkZWQgcG9saWN5IHJ1bnRpbWUuKhBhdXRob3JpemVyLnF1ZXJ5YhYK",
+            "FAoQQXV0aG9yaXplckFQSUtleRIAEoMCCgdDb21waWxlEiQuYXNlcnRvLmF1",
+            "dGhvcml6ZXIudjIuQ29tcGlsZVJlcXVlc3QaJS5hc2VydG8uYXV0aG9yaXpl",
+            "ci52Mi5Db21waWxlUmVzcG9uc2UiqgGC0+STAhoiFS9hcGkvdjIvYXV0aHov",
+            "Y29tcGlsZToBKpJBhgEKCkF1dGhvcml6ZXISFENvbXBpbGUgKGF1dGhvcml6",
+            "ZWQpGjZFeGVjdXRlcyBhIHBhcnRpYWwgcXVlcnkgb24gdGhlIGxvYWRlZCBw",
+            "b2xpY3kgcnVudGltZS4qEmF1dGhvcml6ZXIuY29tcGlsZWIWChQKEEF1dGhv",
+            "cml6ZXJBUElLZXkSABLyAQoMTGlzdFBvbGljaWVzEikuYXNlcnRvLmF1dGhv",
+            "cml6ZXIudjIuTGlzdFBvbGljaWVzUmVxdWVzdBoqLmFzZXJ0by5hdXRob3Jp",
+            "emVyLnYyLkxpc3RQb2xpY2llc1Jlc3BvbnNlIooBgtPkkwISEhAvYXBpL3Yy",
+            "L3BvbGljaWVzkkFvCgZQb2xpY3kSDUxpc3QgUG9saWNpZXMaL0xpc3RzIHRo",
+            "ZSBwb2xpY3kgbW9kdWxlcyBmb3IgdGhlIHBvbGljeSBidW5kbGUuKg1wb2xp",
+            "Y2llcy5saXN0YhYKFAoQQXV0aG9yaXplckFQSUtleRIAEvABCglHZXRQb2xp",
+            "Y3kSJi5hc2VydG8uYXV0aG9yaXplci52Mi5HZXRQb2xpY3lSZXF1ZXN0Gicu",
+            "YXNlcnRvLmF1dGhvcml6ZXIudjIuR2V0UG9saWN5UmVzcG9uc2UikQGC0+ST",
+            "AhwSGi9hcGkvdjIvcG9saWNpZXMve2lkPSovKip9kkFsCgZQb2xpY3kSCkdl",
+            "dCBQb2xpY3kaMEdldHMgdGhlIHBvbGljeSBtb2R1bGVzIGZvciB0aGUgZ2l2",
+            "ZW4gbW9kdWxlIElkLioMcG9saWNpZXMuZ2V0YhYKFAoQQXV0aG9yaXplckFQ",
+            "SUtleRIAEpsBCgRJbmZvEiEuYXNlcnRvLmF1dGhvcml6ZXIudjIuSW5mb1Jl",
+            "cXVlc3QaIi5hc2VydG8uYXV0aG9yaXplci52Mi5JbmZvUmVzcG9uc2UiTILT",
+            "5JMCDhIML2FwaS92Mi9pbmZvkkE1CgRJbmZvEgRJbmZvGhtSZXR1cm4gdmVy",
+            "c2lvbiBpbmZvcm1hdGlvbi4qCGluZm8uZ2V0YgBCyQFaQ2dpdGh1Yi5jb20v",
+            "YXNlcnRvLWRldi9nby1hdXRob3JpemVyL2FzZXJ0by9hdXRob3JpemVyL3Yy",
+            "O2F1dGhvcml6ZXKqAhRBc2VydG8uQXV0aG9yaXplci5WMpJBaioBAjIQYXBw",
+            "bGljYXRpb24vanNvbjoQYXBwbGljYXRpb24vanNvblopCicKEEF1dGhvcml6",
+            "ZXJBUElLZXkSEwgCGg1hdXRob3JpemF0aW9uIAJiFgoUChBBdXRob3JpemVy",
+            "QVBJS2V5EgBiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Grpc.Gateway.ProtocGenOpenapiv2.Options.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Aserto.Authorizer.V2.API.IdentityContextReflection.Descriptor, global::Aserto.Authorizer.V2.API.PolicyContextReflection.Descriptor, global::Aserto.Authorizer.V2.API.ModuleReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Grpc.Gateway.ProtocGenOpenapiv2.Options.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Aserto.Authorizer.V2.API.IdentityContextReflection.Descriptor, global::Aserto.Authorizer.V2.API.PolicyContextReflection.Descriptor, global::Aserto.Authorizer.V2.API.ModuleReflection.Descriptor, global::Aserto.Authorizer.V2.API.PolicyInstanceReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Aserto.Authorizer.V2.PathSeparator), typeof(global::Aserto.Authorizer.V2.TraceLevel), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.InfoRequest), global::Aserto.Authorizer.V2.InfoRequest.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.InfoResponse), global::Aserto.Authorizer.V2.InfoResponse.Parser, new[]{ "Version", "Commit", "Date", "Os", "Arch" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.GetPolicyRequest), global::Aserto.Authorizer.V2.GetPolicyRequest.Parser, new[]{ "Id", "FieldMask" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.GetPolicyRequest), global::Aserto.Authorizer.V2.GetPolicyRequest.Parser, new[]{ "Id", "FieldMask", "PolicyInstance" }, new[]{ "PolicyInstance" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.GetPolicyResponse), global::Aserto.Authorizer.V2.GetPolicyResponse.Parser, new[]{ "Result" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.ListPoliciesRequest), global::Aserto.Authorizer.V2.ListPoliciesRequest.Parser, new[]{ "FieldMask" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.ListPoliciesRequest), global::Aserto.Authorizer.V2.ListPoliciesRequest.Parser, new[]{ "FieldMask", "PolicyInstance" }, new[]{ "PolicyInstance" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.ListPoliciesResponse), global::Aserto.Authorizer.V2.ListPoliciesResponse.Parser, new[]{ "Result" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.DecisionTreeRequest), global::Aserto.Authorizer.V2.DecisionTreeRequest.Parser, new[]{ "PolicyContext", "IdentityContext", "Options", "ResourceContext" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.DecisionTreeRequest), global::Aserto.Authorizer.V2.DecisionTreeRequest.Parser, new[]{ "PolicyContext", "IdentityContext", "Options", "ResourceContext", "PolicyInstance" }, new[]{ "PolicyInstance" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.DecisionTreeOptions), global::Aserto.Authorizer.V2.DecisionTreeOptions.Parser, new[]{ "PathSeparator" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.DecisionTreeResponse), global::Aserto.Authorizer.V2.DecisionTreeResponse.Parser, new[]{ "PathRoot", "Path" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.IsRequest), global::Aserto.Authorizer.V2.IsRequest.Parser, new[]{ "PolicyContext", "IdentityContext", "ResourceContext" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.IsRequest), global::Aserto.Authorizer.V2.IsRequest.Parser, new[]{ "PolicyContext", "IdentityContext", "ResourceContext", "PolicyInstance" }, new[]{ "PolicyInstance" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.Decision), global::Aserto.Authorizer.V2.Decision.Parser, new[]{ "Decision_", "Is" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.IsResponse), global::Aserto.Authorizer.V2.IsResponse.Parser, new[]{ "Decisions" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.QueryOptions), global::Aserto.Authorizer.V2.QueryOptions.Parser, new[]{ "Metrics", "Instrument", "Trace", "TraceSummary" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.QueryRequest), global::Aserto.Authorizer.V2.QueryRequest.Parser, new[]{ "Query", "Input", "Options", "PolicyContext", "IdentityContext", "ResourceContext" }, new[]{ "Options", "PolicyContext", "IdentityContext", "ResourceContext" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.CompileRequest), global::Aserto.Authorizer.V2.CompileRequest.Parser, new[]{ "Query", "Input", "Unknowns", "DisableInlining", "Options", "PolicyContext", "IdentityContext", "ResourceContext" }, new[]{ "Options", "PolicyContext", "IdentityContext", "ResourceContext" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.QueryRequest), global::Aserto.Authorizer.V2.QueryRequest.Parser, new[]{ "Query", "Input", "Options", "PolicyContext", "IdentityContext", "ResourceContext", "PolicyInstance" }, new[]{ "Options", "PolicyContext", "IdentityContext", "ResourceContext", "PolicyInstance" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.CompileRequest), global::Aserto.Authorizer.V2.CompileRequest.Parser, new[]{ "Query", "Input", "Unknowns", "DisableInlining", "Options", "PolicyContext", "IdentityContext", "ResourceContext", "PolicyInstance" }, new[]{ "Options", "PolicyContext", "IdentityContext", "ResourceContext", "PolicyInstance" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.CompileResponse), global::Aserto.Authorizer.V2.CompileResponse.Parser, new[]{ "Result", "Metrics", "Trace", "TraceSummary" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.QueryResponse), global::Aserto.Authorizer.V2.QueryResponse.Parser, new[]{ "Response", "Metrics", "Trace", "TraceSummary" }, null, null, null, null)
           }));
@@ -684,6 +697,7 @@ namespace Aserto.Authorizer.V2 {
     public GetPolicyRequest(GetPolicyRequest other) : this() {
       id_ = other.id_;
       fieldMask_ = other.fieldMask_ != null ? other.fieldMask_.Clone() : null;
+      policyInstance_ = other.policyInstance_ != null ? other.policyInstance_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -714,6 +728,17 @@ namespace Aserto.Authorizer.V2 {
       }
     }
 
+    /// <summary>Field number for the "policy_instance" field.</summary>
+    public const int PolicyInstanceFieldNumber = 3;
+    private global::Aserto.Authorizer.V2.API.PolicyInstance policyInstance_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Aserto.Authorizer.V2.API.PolicyInstance PolicyInstance {
+      get { return policyInstance_; }
+      set {
+        policyInstance_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as GetPolicyRequest);
@@ -729,6 +754,7 @@ namespace Aserto.Authorizer.V2 {
       }
       if (Id != other.Id) return false;
       if (!object.Equals(FieldMask, other.FieldMask)) return false;
+      if (!object.Equals(PolicyInstance, other.PolicyInstance)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -737,6 +763,7 @@ namespace Aserto.Authorizer.V2 {
       int hash = 1;
       if (Id.Length != 0) hash ^= Id.GetHashCode();
       if (fieldMask_ != null) hash ^= FieldMask.GetHashCode();
+      if (policyInstance_ != null) hash ^= PolicyInstance.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -761,6 +788,10 @@ namespace Aserto.Authorizer.V2 {
         output.WriteRawTag(18);
         output.WriteMessage(FieldMask);
       }
+      if (policyInstance_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(PolicyInstance);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -778,6 +809,10 @@ namespace Aserto.Authorizer.V2 {
         output.WriteRawTag(18);
         output.WriteMessage(FieldMask);
       }
+      if (policyInstance_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(PolicyInstance);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -792,6 +827,9 @@ namespace Aserto.Authorizer.V2 {
       }
       if (fieldMask_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(FieldMask);
+      }
+      if (policyInstance_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PolicyInstance);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -812,6 +850,12 @@ namespace Aserto.Authorizer.V2 {
           FieldMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
         }
         FieldMask.MergeFrom(other.FieldMask);
+      }
+      if (other.policyInstance_ != null) {
+        if (policyInstance_ == null) {
+          PolicyInstance = new global::Aserto.Authorizer.V2.API.PolicyInstance();
+        }
+        PolicyInstance.MergeFrom(other.PolicyInstance);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -838,6 +882,13 @@ namespace Aserto.Authorizer.V2 {
             input.ReadMessage(FieldMask);
             break;
           }
+          case 26: {
+            if (policyInstance_ == null) {
+              PolicyInstance = new global::Aserto.Authorizer.V2.API.PolicyInstance();
+            }
+            input.ReadMessage(PolicyInstance);
+            break;
+          }
         }
       }
     #endif
@@ -861,6 +912,13 @@ namespace Aserto.Authorizer.V2 {
               FieldMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
             }
             input.ReadMessage(FieldMask);
+            break;
+          }
+          case 26: {
+            if (policyInstance_ == null) {
+              PolicyInstance = new global::Aserto.Authorizer.V2.API.PolicyInstance();
+            }
+            input.ReadMessage(PolicyInstance);
             break;
           }
         }
@@ -1081,6 +1139,7 @@ namespace Aserto.Authorizer.V2 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ListPoliciesRequest(ListPoliciesRequest other) : this() {
       fieldMask_ = other.fieldMask_ != null ? other.fieldMask_.Clone() : null;
+      policyInstance_ = other.policyInstance_ != null ? other.policyInstance_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1100,6 +1159,17 @@ namespace Aserto.Authorizer.V2 {
       }
     }
 
+    /// <summary>Field number for the "policy_instance" field.</summary>
+    public const int PolicyInstanceFieldNumber = 2;
+    private global::Aserto.Authorizer.V2.API.PolicyInstance policyInstance_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Aserto.Authorizer.V2.API.PolicyInstance PolicyInstance {
+      get { return policyInstance_; }
+      set {
+        policyInstance_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as ListPoliciesRequest);
@@ -1114,6 +1184,7 @@ namespace Aserto.Authorizer.V2 {
         return true;
       }
       if (!object.Equals(FieldMask, other.FieldMask)) return false;
+      if (!object.Equals(PolicyInstance, other.PolicyInstance)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1121,6 +1192,7 @@ namespace Aserto.Authorizer.V2 {
     public override int GetHashCode() {
       int hash = 1;
       if (fieldMask_ != null) hash ^= FieldMask.GetHashCode();
+      if (policyInstance_ != null) hash ^= PolicyInstance.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1141,6 +1213,10 @@ namespace Aserto.Authorizer.V2 {
         output.WriteRawTag(10);
         output.WriteMessage(FieldMask);
       }
+      if (policyInstance_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(PolicyInstance);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1154,6 +1230,10 @@ namespace Aserto.Authorizer.V2 {
         output.WriteRawTag(10);
         output.WriteMessage(FieldMask);
       }
+      if (policyInstance_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(PolicyInstance);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1165,6 +1245,9 @@ namespace Aserto.Authorizer.V2 {
       int size = 0;
       if (fieldMask_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(FieldMask);
+      }
+      if (policyInstance_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PolicyInstance);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1182,6 +1265,12 @@ namespace Aserto.Authorizer.V2 {
           FieldMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
         }
         FieldMask.MergeFrom(other.FieldMask);
+      }
+      if (other.policyInstance_ != null) {
+        if (policyInstance_ == null) {
+          PolicyInstance = new global::Aserto.Authorizer.V2.API.PolicyInstance();
+        }
+        PolicyInstance.MergeFrom(other.PolicyInstance);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1204,6 +1293,13 @@ namespace Aserto.Authorizer.V2 {
             input.ReadMessage(FieldMask);
             break;
           }
+          case 18: {
+            if (policyInstance_ == null) {
+              PolicyInstance = new global::Aserto.Authorizer.V2.API.PolicyInstance();
+            }
+            input.ReadMessage(PolicyInstance);
+            break;
+          }
         }
       }
     #endif
@@ -1223,6 +1319,13 @@ namespace Aserto.Authorizer.V2 {
               FieldMask = new global::Google.Protobuf.WellKnownTypes.FieldMask();
             }
             input.ReadMessage(FieldMask);
+            break;
+          }
+          case 18: {
+            if (policyInstance_ == null) {
+              PolicyInstance = new global::Aserto.Authorizer.V2.API.PolicyInstance();
+            }
+            input.ReadMessage(PolicyInstance);
             break;
           }
         }
@@ -1426,6 +1529,7 @@ namespace Aserto.Authorizer.V2 {
       identityContext_ = other.identityContext_ != null ? other.identityContext_.Clone() : null;
       options_ = other.options_ != null ? other.options_.Clone() : null;
       resourceContext_ = other.resourceContext_ != null ? other.resourceContext_.Clone() : null;
+      policyInstance_ = other.policyInstance_ != null ? other.policyInstance_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1478,6 +1582,17 @@ namespace Aserto.Authorizer.V2 {
       }
     }
 
+    /// <summary>Field number for the "policy_instance" field.</summary>
+    public const int PolicyInstanceFieldNumber = 5;
+    private global::Aserto.Authorizer.V2.API.PolicyInstance policyInstance_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Aserto.Authorizer.V2.API.PolicyInstance PolicyInstance {
+      get { return policyInstance_; }
+      set {
+        policyInstance_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as DecisionTreeRequest);
@@ -1495,6 +1610,7 @@ namespace Aserto.Authorizer.V2 {
       if (!object.Equals(IdentityContext, other.IdentityContext)) return false;
       if (!object.Equals(Options, other.Options)) return false;
       if (!object.Equals(ResourceContext, other.ResourceContext)) return false;
+      if (!object.Equals(PolicyInstance, other.PolicyInstance)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1505,6 +1621,7 @@ namespace Aserto.Authorizer.V2 {
       if (identityContext_ != null) hash ^= IdentityContext.GetHashCode();
       if (options_ != null) hash ^= Options.GetHashCode();
       if (resourceContext_ != null) hash ^= ResourceContext.GetHashCode();
+      if (policyInstance_ != null) hash ^= PolicyInstance.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1537,6 +1654,10 @@ namespace Aserto.Authorizer.V2 {
         output.WriteRawTag(34);
         output.WriteMessage(ResourceContext);
       }
+      if (policyInstance_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(PolicyInstance);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1562,6 +1683,10 @@ namespace Aserto.Authorizer.V2 {
         output.WriteRawTag(34);
         output.WriteMessage(ResourceContext);
       }
+      if (policyInstance_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(PolicyInstance);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1582,6 +1707,9 @@ namespace Aserto.Authorizer.V2 {
       }
       if (resourceContext_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(ResourceContext);
+      }
+      if (policyInstance_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PolicyInstance);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1617,6 +1745,12 @@ namespace Aserto.Authorizer.V2 {
           ResourceContext = new global::Google.Protobuf.WellKnownTypes.Struct();
         }
         ResourceContext.MergeFrom(other.ResourceContext);
+      }
+      if (other.policyInstance_ != null) {
+        if (policyInstance_ == null) {
+          PolicyInstance = new global::Aserto.Authorizer.V2.API.PolicyInstance();
+        }
+        PolicyInstance.MergeFrom(other.PolicyInstance);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1660,6 +1794,13 @@ namespace Aserto.Authorizer.V2 {
             input.ReadMessage(ResourceContext);
             break;
           }
+          case 42: {
+            if (policyInstance_ == null) {
+              PolicyInstance = new global::Aserto.Authorizer.V2.API.PolicyInstance();
+            }
+            input.ReadMessage(PolicyInstance);
+            break;
+          }
         }
       }
     #endif
@@ -1700,6 +1841,13 @@ namespace Aserto.Authorizer.V2 {
               ResourceContext = new global::Google.Protobuf.WellKnownTypes.Struct();
             }
             input.ReadMessage(ResourceContext);
+            break;
+          }
+          case 42: {
+            if (policyInstance_ == null) {
+              PolicyInstance = new global::Aserto.Authorizer.V2.API.PolicyInstance();
+            }
+            input.ReadMessage(PolicyInstance);
             break;
           }
         }
@@ -2130,6 +2278,7 @@ namespace Aserto.Authorizer.V2 {
       policyContext_ = other.policyContext_ != null ? other.policyContext_.Clone() : null;
       identityContext_ = other.identityContext_ != null ? other.identityContext_.Clone() : null;
       resourceContext_ = other.resourceContext_ != null ? other.resourceContext_.Clone() : null;
+      policyInstance_ = other.policyInstance_ != null ? other.policyInstance_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2171,6 +2320,17 @@ namespace Aserto.Authorizer.V2 {
       }
     }
 
+    /// <summary>Field number for the "policy_instance" field.</summary>
+    public const int PolicyInstanceFieldNumber = 4;
+    private global::Aserto.Authorizer.V2.API.PolicyInstance policyInstance_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Aserto.Authorizer.V2.API.PolicyInstance PolicyInstance {
+      get { return policyInstance_; }
+      set {
+        policyInstance_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as IsRequest);
@@ -2187,6 +2347,7 @@ namespace Aserto.Authorizer.V2 {
       if (!object.Equals(PolicyContext, other.PolicyContext)) return false;
       if (!object.Equals(IdentityContext, other.IdentityContext)) return false;
       if (!object.Equals(ResourceContext, other.ResourceContext)) return false;
+      if (!object.Equals(PolicyInstance, other.PolicyInstance)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2196,6 +2357,7 @@ namespace Aserto.Authorizer.V2 {
       if (policyContext_ != null) hash ^= PolicyContext.GetHashCode();
       if (identityContext_ != null) hash ^= IdentityContext.GetHashCode();
       if (resourceContext_ != null) hash ^= ResourceContext.GetHashCode();
+      if (policyInstance_ != null) hash ^= PolicyInstance.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2224,6 +2386,10 @@ namespace Aserto.Authorizer.V2 {
         output.WriteRawTag(26);
         output.WriteMessage(ResourceContext);
       }
+      if (policyInstance_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(PolicyInstance);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2245,6 +2411,10 @@ namespace Aserto.Authorizer.V2 {
         output.WriteRawTag(26);
         output.WriteMessage(ResourceContext);
       }
+      if (policyInstance_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(PolicyInstance);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2262,6 +2432,9 @@ namespace Aserto.Authorizer.V2 {
       }
       if (resourceContext_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(ResourceContext);
+      }
+      if (policyInstance_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PolicyInstance);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2291,6 +2464,12 @@ namespace Aserto.Authorizer.V2 {
           ResourceContext = new global::Google.Protobuf.WellKnownTypes.Struct();
         }
         ResourceContext.MergeFrom(other.ResourceContext);
+      }
+      if (other.policyInstance_ != null) {
+        if (policyInstance_ == null) {
+          PolicyInstance = new global::Aserto.Authorizer.V2.API.PolicyInstance();
+        }
+        PolicyInstance.MergeFrom(other.PolicyInstance);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2327,6 +2506,13 @@ namespace Aserto.Authorizer.V2 {
             input.ReadMessage(ResourceContext);
             break;
           }
+          case 34: {
+            if (policyInstance_ == null) {
+              PolicyInstance = new global::Aserto.Authorizer.V2.API.PolicyInstance();
+            }
+            input.ReadMessage(PolicyInstance);
+            break;
+          }
         }
       }
     #endif
@@ -2360,6 +2546,13 @@ namespace Aserto.Authorizer.V2 {
               ResourceContext = new global::Google.Protobuf.WellKnownTypes.Struct();
             }
             input.ReadMessage(ResourceContext);
+            break;
+          }
+          case 34: {
+            if (policyInstance_ == null) {
+              PolicyInstance = new global::Aserto.Authorizer.V2.API.PolicyInstance();
+            }
+            input.ReadMessage(PolicyInstance);
             break;
           }
         }
@@ -3065,6 +3258,7 @@ namespace Aserto.Authorizer.V2 {
       policyContext_ = other.policyContext_ != null ? other.policyContext_.Clone() : null;
       identityContext_ = other.identityContext_ != null ? other.identityContext_.Clone() : null;
       resourceContext_ = other.resourceContext_ != null ? other.resourceContext_.Clone() : null;
+      policyInstance_ = other.policyInstance_ != null ? other.policyInstance_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3139,6 +3333,17 @@ namespace Aserto.Authorizer.V2 {
       }
     }
 
+    /// <summary>Field number for the "policy_instance" field.</summary>
+    public const int PolicyInstanceFieldNumber = 7;
+    private global::Aserto.Authorizer.V2.API.PolicyInstance policyInstance_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Aserto.Authorizer.V2.API.PolicyInstance PolicyInstance {
+      get { return policyInstance_; }
+      set {
+        policyInstance_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as QueryRequest);
@@ -3158,6 +3363,7 @@ namespace Aserto.Authorizer.V2 {
       if (!object.Equals(PolicyContext, other.PolicyContext)) return false;
       if (!object.Equals(IdentityContext, other.IdentityContext)) return false;
       if (!object.Equals(ResourceContext, other.ResourceContext)) return false;
+      if (!object.Equals(PolicyInstance, other.PolicyInstance)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3170,6 +3376,7 @@ namespace Aserto.Authorizer.V2 {
       if (policyContext_ != null) hash ^= PolicyContext.GetHashCode();
       if (identityContext_ != null) hash ^= IdentityContext.GetHashCode();
       if (resourceContext_ != null) hash ^= ResourceContext.GetHashCode();
+      if (policyInstance_ != null) hash ^= PolicyInstance.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3210,6 +3417,10 @@ namespace Aserto.Authorizer.V2 {
         output.WriteRawTag(50);
         output.WriteMessage(ResourceContext);
       }
+      if (policyInstance_ != null) {
+        output.WriteRawTag(58);
+        output.WriteMessage(PolicyInstance);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3243,6 +3454,10 @@ namespace Aserto.Authorizer.V2 {
         output.WriteRawTag(50);
         output.WriteMessage(ResourceContext);
       }
+      if (policyInstance_ != null) {
+        output.WriteRawTag(58);
+        output.WriteMessage(PolicyInstance);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -3269,6 +3484,9 @@ namespace Aserto.Authorizer.V2 {
       }
       if (resourceContext_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(ResourceContext);
+      }
+      if (policyInstance_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PolicyInstance);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -3310,6 +3528,12 @@ namespace Aserto.Authorizer.V2 {
           ResourceContext = new global::Google.Protobuf.WellKnownTypes.Struct();
         }
         ResourceContext.MergeFrom(other.ResourceContext);
+      }
+      if (other.policyInstance_ != null) {
+        if (policyInstance_ == null) {
+          PolicyInstance = new global::Aserto.Authorizer.V2.API.PolicyInstance();
+        }
+        PolicyInstance.MergeFrom(other.PolicyInstance);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -3359,6 +3583,13 @@ namespace Aserto.Authorizer.V2 {
               ResourceContext = new global::Google.Protobuf.WellKnownTypes.Struct();
             }
             input.ReadMessage(ResourceContext);
+            break;
+          }
+          case 58: {
+            if (policyInstance_ == null) {
+              PolicyInstance = new global::Aserto.Authorizer.V2.API.PolicyInstance();
+            }
+            input.ReadMessage(PolicyInstance);
             break;
           }
         }
@@ -3411,6 +3642,13 @@ namespace Aserto.Authorizer.V2 {
             input.ReadMessage(ResourceContext);
             break;
           }
+          case 58: {
+            if (policyInstance_ == null) {
+              PolicyInstance = new global::Aserto.Authorizer.V2.API.PolicyInstance();
+            }
+            input.ReadMessage(PolicyInstance);
+            break;
+          }
         }
       }
     }
@@ -3455,6 +3693,7 @@ namespace Aserto.Authorizer.V2 {
       policyContext_ = other.policyContext_ != null ? other.policyContext_.Clone() : null;
       identityContext_ = other.identityContext_ != null ? other.identityContext_.Clone() : null;
       resourceContext_ = other.resourceContext_ != null ? other.resourceContext_.Clone() : null;
+      policyInstance_ = other.policyInstance_ != null ? other.policyInstance_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3549,6 +3788,17 @@ namespace Aserto.Authorizer.V2 {
       }
     }
 
+    /// <summary>Field number for the "policy_instance" field.</summary>
+    public const int PolicyInstanceFieldNumber = 9;
+    private global::Aserto.Authorizer.V2.API.PolicyInstance policyInstance_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Aserto.Authorizer.V2.API.PolicyInstance PolicyInstance {
+      get { return policyInstance_; }
+      set {
+        policyInstance_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as CompileRequest);
@@ -3570,6 +3820,7 @@ namespace Aserto.Authorizer.V2 {
       if (!object.Equals(PolicyContext, other.PolicyContext)) return false;
       if (!object.Equals(IdentityContext, other.IdentityContext)) return false;
       if (!object.Equals(ResourceContext, other.ResourceContext)) return false;
+      if (!object.Equals(PolicyInstance, other.PolicyInstance)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3584,6 +3835,7 @@ namespace Aserto.Authorizer.V2 {
       if (policyContext_ != null) hash ^= PolicyContext.GetHashCode();
       if (identityContext_ != null) hash ^= IdentityContext.GetHashCode();
       if (resourceContext_ != null) hash ^= ResourceContext.GetHashCode();
+      if (policyInstance_ != null) hash ^= PolicyInstance.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3626,6 +3878,10 @@ namespace Aserto.Authorizer.V2 {
         output.WriteRawTag(66);
         output.WriteMessage(ResourceContext);
       }
+      if (policyInstance_ != null) {
+        output.WriteRawTag(74);
+        output.WriteMessage(PolicyInstance);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3661,6 +3917,10 @@ namespace Aserto.Authorizer.V2 {
         output.WriteRawTag(66);
         output.WriteMessage(ResourceContext);
       }
+      if (policyInstance_ != null) {
+        output.WriteRawTag(74);
+        output.WriteMessage(PolicyInstance);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -3689,6 +3949,9 @@ namespace Aserto.Authorizer.V2 {
       }
       if (resourceContext_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(ResourceContext);
+      }
+      if (policyInstance_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PolicyInstance);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -3732,6 +3995,12 @@ namespace Aserto.Authorizer.V2 {
           ResourceContext = new global::Google.Protobuf.WellKnownTypes.Struct();
         }
         ResourceContext.MergeFrom(other.ResourceContext);
+      }
+      if (other.policyInstance_ != null) {
+        if (policyInstance_ == null) {
+          PolicyInstance = new global::Aserto.Authorizer.V2.API.PolicyInstance();
+        }
+        PolicyInstance.MergeFrom(other.PolicyInstance);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -3791,6 +4060,13 @@ namespace Aserto.Authorizer.V2 {
             input.ReadMessage(ResourceContext);
             break;
           }
+          case 74: {
+            if (policyInstance_ == null) {
+              PolicyInstance = new global::Aserto.Authorizer.V2.API.PolicyInstance();
+            }
+            input.ReadMessage(PolicyInstance);
+            break;
+          }
         }
       }
     #endif
@@ -3847,6 +4123,13 @@ namespace Aserto.Authorizer.V2 {
               ResourceContext = new global::Google.Protobuf.WellKnownTypes.Struct();
             }
             input.ReadMessage(ResourceContext);
+            break;
+          }
+          case 74: {
+            if (policyInstance_ == null) {
+              PolicyInstance = new global::Aserto.Authorizer.V2.API.PolicyInstance();
+            }
+            input.ReadMessage(PolicyInstance);
             break;
           }
         }
