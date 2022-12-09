@@ -29,32 +29,35 @@ namespace Aserto.Authorizer.V2.API {
             "c3RydWN0LnByb3RvGh9nb29nbGUvcHJvdG9idWYvdGltZXN0YW1wLnByb3Rv",
             "Gi1hc2VydG8vYXV0aG9yaXplci92Mi9hcGkvcG9saWN5X2NvbnRleHQucHJv",
             "dG8aL2FzZXJ0by9hdXRob3JpemVyL3YyL2FwaS9pZGVudGl0eV9jb250ZXh0",
-            "LnByb3RvIuEDCghEZWNpc2lvbhIKCgJpZBgBIAEoCRItCgl0aW1lc3RhbXAY",
-            "AiABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEgwKBHBhdGgYAyAB",
-            "KAkSNAoEdXNlchgEIAEoCzImLmFzZXJ0by5hdXRob3JpemVyLnYyLmFwaS5E",
-            "ZWNpc2lvblVzZXISOAoGcG9saWN5GAUgASgLMiguYXNlcnRvLmF1dGhvcml6",
-            "ZXIudjIuYXBpLkRlY2lzaW9uUG9saWN5EkIKCG91dGNvbWVzGAYgAygLMjAu",
-            "YXNlcnRvLmF1dGhvcml6ZXIudjIuYXBpLkRlY2lzaW9uLk91dGNvbWVzRW50",
-            "cnkSKQoIcmVzb3VyY2UYByABKAsyFy5nb29nbGUucHJvdG9idWYuU3RydWN0",
-            "EkgKC2Fubm90YXRpb25zGAggAygLMjMuYXNlcnRvLmF1dGhvcml6ZXIudjIu",
-            "YXBpLkRlY2lzaW9uLkFubm90YXRpb25zRW50cnkaLwoNT3V0Y29tZXNFbnRy",
-            "eRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAg6AjgBGjIKEEFubm90YXRp",
-            "b25zRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASJlCgxE",
-            "ZWNpc2lvblVzZXISOgoHY29udGV4dBgBIAEoCzIpLmFzZXJ0by5hdXRob3Jp",
-            "emVyLnYyLmFwaS5JZGVudGl0eUNvbnRleHQSCgoCaWQYAiABKAkSDQoFZW1h",
-            "aWwYAyABKAkiqwEKDkRlY2lzaW9uUG9saWN5EjgKB2NvbnRleHQYASABKAsy",
-            "Jy5hc2VydG8uYXV0aG9yaXplci52Mi5hcGkuUG9saWN5Q29udGV4dBIYChBy",
-            "ZWdpc3RyeV9zZXJ2aWNlGAIgASgJEhYKDnJlZ2lzdHJ5X2ltYWdlGAMgASgJ",
-            "EhQKDHJlZ2lzdHJ5X3RhZxgEIAEoCRIXCg9yZWdpc3RyeV9kaWdlc3QYBSAB",
-            "KAlCXVpAZ2l0aHViLmNvbS9hc2VydG8tZGV2L2dvLWF1dGhvcml6ZXIvYXNl",
-            "cnRvL2F1dGhvcml6ZXIvdjIvYXBpO2FwaaoCGEFzZXJ0by5BdXRob3JpemVy",
-            "LlYyLkFQSWIGcHJvdG8z"));
+            "LnByb3RvGi5hc2VydG8vYXV0aG9yaXplci92Mi9hcGkvcG9saWN5X2luc3Rh",
+            "bmNlLnByb3RvIocECghEZWNpc2lvbhIKCgJpZBgBIAEoCRItCgl0aW1lc3Rh",
+            "bXAYAiABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEgwKBHBhdGgY",
+            "AyABKAkSNAoEdXNlchgEIAEoCzImLmFzZXJ0by5hdXRob3JpemVyLnYyLmFw",
+            "aS5EZWNpc2lvblVzZXISOAoGcG9saWN5GAUgASgLMiguYXNlcnRvLmF1dGhv",
+            "cml6ZXIudjIuYXBpLkRlY2lzaW9uUG9saWN5EkIKCG91dGNvbWVzGAYgAygL",
+            "MjAuYXNlcnRvLmF1dGhvcml6ZXIudjIuYXBpLkRlY2lzaW9uLk91dGNvbWVz",
+            "RW50cnkSKQoIcmVzb3VyY2UYByABKAsyFy5nb29nbGUucHJvdG9idWYuU3Ry",
+            "dWN0EkgKC2Fubm90YXRpb25zGAggAygLMjMuYXNlcnRvLmF1dGhvcml6ZXIu",
+            "djIuYXBpLkRlY2lzaW9uLkFubm90YXRpb25zRW50cnkSFgoJdGVuYW50X2lk",
+            "GAkgASgJSACIAQEaLwoNT3V0Y29tZXNFbnRyeRILCgNrZXkYASABKAkSDQoF",
+            "dmFsdWUYAiABKAg6AjgBGjIKEEFubm90YXRpb25zRW50cnkSCwoDa2V5GAEg",
+            "ASgJEg0KBXZhbHVlGAIgASgJOgI4AUIMCgpfdGVuYW50X2lkImUKDERlY2lz",
+            "aW9uVXNlchI6Cgdjb250ZXh0GAEgASgLMikuYXNlcnRvLmF1dGhvcml6ZXIu",
+            "djIuYXBpLklkZW50aXR5Q29udGV4dBIKCgJpZBgCIAEoCRINCgVlbWFpbBgD",
+            "IAEoCSLuAQoORGVjaXNpb25Qb2xpY3kSOAoHY29udGV4dBgBIAEoCzInLmFz",
+            "ZXJ0by5hdXRob3JpemVyLnYyLmFwaS5Qb2xpY3lDb250ZXh0EhgKEHJlZ2lz",
+            "dHJ5X3NlcnZpY2UYAiABKAkSFgoOcmVnaXN0cnlfaW1hZ2UYAyABKAkSFAoM",
+            "cmVnaXN0cnlfdGFnGAQgASgJEhcKD3JlZ2lzdHJ5X2RpZ2VzdBgFIAEoCRJB",
+            "Cg9wb2xpY3lfaW5zdGFuY2UYBiABKAsyKC5hc2VydG8uYXV0aG9yaXplci52",
+            "Mi5hcGkuUG9saWN5SW5zdGFuY2VCXVpAZ2l0aHViLmNvbS9hc2VydG8tZGV2",
+            "L2dvLWF1dGhvcml6ZXIvYXNlcnRvL2F1dGhvcml6ZXIvdjIvYXBpO2FwaaoC",
+            "GEFzZXJ0by5BdXRob3JpemVyLlYyLkFQSWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Aserto.Authorizer.V2.API.PolicyContextReflection.Descriptor, global::Aserto.Authorizer.V2.API.IdentityContextReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Aserto.Authorizer.V2.API.PolicyContextReflection.Descriptor, global::Aserto.Authorizer.V2.API.IdentityContextReflection.Descriptor, global::Aserto.Authorizer.V2.API.PolicyInstanceReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.API.Decision), global::Aserto.Authorizer.V2.API.Decision.Parser, new[]{ "Id", "Timestamp", "Path", "User", "Policy", "Outcomes", "Resource", "Annotations" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.API.Decision), global::Aserto.Authorizer.V2.API.Decision.Parser, new[]{ "Id", "Timestamp", "Path", "User", "Policy", "Outcomes", "Resource", "Annotations", "TenantId" }, new[]{ "TenantId" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.API.DecisionUser), global::Aserto.Authorizer.V2.API.DecisionUser.Parser, new[]{ "Context", "Id", "Email" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.API.DecisionPolicy), global::Aserto.Authorizer.V2.API.DecisionPolicy.Parser, new[]{ "Context", "RegistryService", "RegistryImage", "RegistryTag", "RegistryDigest" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Aserto.Authorizer.V2.API.DecisionPolicy), global::Aserto.Authorizer.V2.API.DecisionPolicy.Parser, new[]{ "Context", "RegistryService", "RegistryImage", "RegistryTag", "RegistryDigest", "PolicyInstance" }, null, null, null, null)
           }));
     }
     #endregion
@@ -101,6 +104,7 @@ namespace Aserto.Authorizer.V2.API {
       outcomes_ = other.outcomes_.Clone();
       resource_ = other.resource_ != null ? other.resource_.Clone() : null;
       annotations_ = other.annotations_.Clone();
+      tenantId_ = other.tenantId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -219,6 +223,30 @@ namespace Aserto.Authorizer.V2.API {
       get { return annotations_; }
     }
 
+    /// <summary>Field number for the "tenant_id" field.</summary>
+    public const int TenantIdFieldNumber = 9;
+    private string tenantId_;
+    /// <summary>
+    /// id of the tenant that generated the decision
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string TenantId {
+      get { return tenantId_ ?? ""; }
+      set {
+        tenantId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "tenant_id" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool HasTenantId {
+      get { return tenantId_ != null; }
+    }
+    /// <summary>Clears the value of the "tenant_id" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearTenantId() {
+      tenantId_ = null;
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Decision);
@@ -240,6 +268,7 @@ namespace Aserto.Authorizer.V2.API {
       if (!Outcomes.Equals(other.Outcomes)) return false;
       if (!object.Equals(Resource, other.Resource)) return false;
       if (!Annotations.Equals(other.Annotations)) return false;
+      if (TenantId != other.TenantId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -254,6 +283,7 @@ namespace Aserto.Authorizer.V2.API {
       hash ^= Outcomes.GetHashCode();
       if (resource_ != null) hash ^= Resource.GetHashCode();
       hash ^= Annotations.GetHashCode();
+      if (HasTenantId) hash ^= TenantId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -296,6 +326,10 @@ namespace Aserto.Authorizer.V2.API {
         output.WriteMessage(Resource);
       }
       annotations_.WriteTo(output, _map_annotations_codec);
+      if (HasTenantId) {
+        output.WriteRawTag(74);
+        output.WriteString(TenantId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -331,6 +365,10 @@ namespace Aserto.Authorizer.V2.API {
         output.WriteMessage(Resource);
       }
       annotations_.WriteTo(ref output, _map_annotations_codec);
+      if (HasTenantId) {
+        output.WriteRawTag(74);
+        output.WriteString(TenantId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -360,6 +398,9 @@ namespace Aserto.Authorizer.V2.API {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Resource);
       }
       size += annotations_.CalculateSize(_map_annotations_codec);
+      if (HasTenantId) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TenantId);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -403,6 +444,9 @@ namespace Aserto.Authorizer.V2.API {
         Resource.MergeFrom(other.Resource);
       }
       annotations_.Add(other.annotations_);
+      if (other.HasTenantId) {
+        TenantId = other.TenantId;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -461,6 +505,10 @@ namespace Aserto.Authorizer.V2.API {
             annotations_.AddEntriesFrom(input, _map_annotations_codec);
             break;
           }
+          case 74: {
+            TenantId = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -517,6 +565,10 @@ namespace Aserto.Authorizer.V2.API {
           }
           case 66: {
             annotations_.AddEntriesFrom(ref input, _map_annotations_codec);
+            break;
+          }
+          case 74: {
+            TenantId = input.ReadString();
             break;
           }
         }
@@ -828,6 +880,7 @@ namespace Aserto.Authorizer.V2.API {
       registryImage_ = other.registryImage_;
       registryTag_ = other.registryTag_;
       registryDigest_ = other.registryDigest_;
+      policyInstance_ = other.policyInstance_ != null ? other.policyInstance_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -906,6 +959,20 @@ namespace Aserto.Authorizer.V2.API {
       }
     }
 
+    /// <summary>Field number for the "policy_instance" field.</summary>
+    public const int PolicyInstanceFieldNumber = 6;
+    private global::Aserto.Authorizer.V2.API.PolicyInstance policyInstance_;
+    /// <summary>
+    /// policy instance used in decision
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Aserto.Authorizer.V2.API.PolicyInstance PolicyInstance {
+      get { return policyInstance_; }
+      set {
+        policyInstance_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as DecisionPolicy);
@@ -924,6 +991,7 @@ namespace Aserto.Authorizer.V2.API {
       if (RegistryImage != other.RegistryImage) return false;
       if (RegistryTag != other.RegistryTag) return false;
       if (RegistryDigest != other.RegistryDigest) return false;
+      if (!object.Equals(PolicyInstance, other.PolicyInstance)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -935,6 +1003,7 @@ namespace Aserto.Authorizer.V2.API {
       if (RegistryImage.Length != 0) hash ^= RegistryImage.GetHashCode();
       if (RegistryTag.Length != 0) hash ^= RegistryTag.GetHashCode();
       if (RegistryDigest.Length != 0) hash ^= RegistryDigest.GetHashCode();
+      if (policyInstance_ != null) hash ^= PolicyInstance.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -971,6 +1040,10 @@ namespace Aserto.Authorizer.V2.API {
         output.WriteRawTag(42);
         output.WriteString(RegistryDigest);
       }
+      if (policyInstance_ != null) {
+        output.WriteRawTag(50);
+        output.WriteMessage(PolicyInstance);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1000,6 +1073,10 @@ namespace Aserto.Authorizer.V2.API {
         output.WriteRawTag(42);
         output.WriteString(RegistryDigest);
       }
+      if (policyInstance_ != null) {
+        output.WriteRawTag(50);
+        output.WriteMessage(PolicyInstance);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1023,6 +1100,9 @@ namespace Aserto.Authorizer.V2.API {
       }
       if (RegistryDigest.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(RegistryDigest);
+      }
+      if (policyInstance_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PolicyInstance);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1052,6 +1132,12 @@ namespace Aserto.Authorizer.V2.API {
       }
       if (other.RegistryDigest.Length != 0) {
         RegistryDigest = other.RegistryDigest;
+      }
+      if (other.policyInstance_ != null) {
+        if (policyInstance_ == null) {
+          PolicyInstance = new global::Aserto.Authorizer.V2.API.PolicyInstance();
+        }
+        PolicyInstance.MergeFrom(other.PolicyInstance);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1090,6 +1176,13 @@ namespace Aserto.Authorizer.V2.API {
             RegistryDigest = input.ReadString();
             break;
           }
+          case 50: {
+            if (policyInstance_ == null) {
+              PolicyInstance = new global::Aserto.Authorizer.V2.API.PolicyInstance();
+            }
+            input.ReadMessage(PolicyInstance);
+            break;
+          }
         }
       }
     #endif
@@ -1125,6 +1218,13 @@ namespace Aserto.Authorizer.V2.API {
           }
           case 42: {
             RegistryDigest = input.ReadString();
+            break;
+          }
+          case 50: {
+            if (policyInstance_ == null) {
+              PolicyInstance = new global::Aserto.Authorizer.V2.API.PolicyInstance();
+            }
+            input.ReadMessage(PolicyInstance);
             break;
           }
         }
