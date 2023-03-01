@@ -143,12 +143,13 @@ namespace Aserto.Authorizer.V2 {
             "ABKbAQoESW5mbxIhLmFzZXJ0by5hdXRob3JpemVyLnYyLkluZm9SZXF1ZXN0",
             "GiIuYXNlcnRvLmF1dGhvcml6ZXIudjIuSW5mb1Jlc3BvbnNlIkyC0+STAg4S",
             "DC9hcGkvdjIvaW5mb5JBNQoESW5mbxIESW5mbxobUmV0dXJuIHZlcnNpb24g",
-            "aW5mb3JtYXRpb24uKghpbmZvLmdldGIAQtcBWkNnaXRodWIuY29tL2FzZXJ0",
+            "aW5mb3JtYXRpb24uKghpbmZvLmdldGIAQvwBWkNnaXRodWIuY29tL2FzZXJ0",
             "by1kZXYvZ28tYXV0aG9yaXplci9hc2VydG8vYXV0aG9yaXplci92MjthdXRo",
-            "b3JpemVyqgIUQXNlcnRvLkF1dGhvcml6ZXIuVjKSQXgqAQIyEGFwcGxpY2F0",
-            "aW9uL2pzb246EGFwcGxpY2F0aW9uL2pzb25aKQonChBBdXRob3JpemVyQVBJ",
-            "S2V5EhMIAhoNYXV0aG9yaXphdGlvbiACYiQKFAoQQXV0aG9yaXplckFQSUtl",
-            "eRIACgwKCFRlbmFudElEEgBiBnByb3RvMw=="));
+            "b3JpemVyqgIUQXNlcnRvLkF1dGhvcml6ZXIuVjKSQZwBKgECMhBhcHBsaWNh",
+            "dGlvbi9qc29uOhBhcHBsaWNhdGlvbi9qc29uWk0KIgoIVGVuYW50SUQSFggC",
+            "GhBhc2VydG8tdGVuYW50LWlkIAIKJwoQQXV0aG9yaXplckFQSUtleRITCAIa",
+            "DWF1dGhvcml6YXRpb24gAmIkChQKEEF1dGhvcml6ZXJBUElLZXkSAAoMCghU",
+            "ZW5hbnRJRBIAYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Grpc.Gateway.ProtocGenOpenapiv2.Options.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Aserto.Authorizer.V2.API.IdentityContextReflection.Descriptor, global::Aserto.Authorizer.V2.API.PolicyContextReflection.Descriptor, global::Aserto.Authorizer.V2.API.ModuleReflection.Descriptor, global::Aserto.Authorizer.V2.API.PolicyInstanceReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Aserto.Authorizer.V2.PathSeparator), typeof(global::Aserto.Authorizer.V2.TraceLevel), }, null, new pbr::GeneratedClrTypeInfo[] {
