@@ -27,12 +27,13 @@ namespace Aserto.Authorizer.V2.API {
             "Ci9hc2VydG8vYXV0aG9yaXplci92Mi9hcGkvaWRlbnRpdHlfY29udGV4dC5w",
             "cm90bxIYYXNlcnRvLmF1dGhvcml6ZXIudjIuYXBpIlkKD0lkZW50aXR5Q29u",
             "dGV4dBIQCghpZGVudGl0eRgBIAEoCRI0CgR0eXBlGAIgASgOMiYuYXNlcnRv",
-            "LmF1dGhvcml6ZXIudjIuYXBpLklkZW50aXR5VHlwZSpvCgxJZGVudGl0eVR5",
-            "cGUSGQoVSURFTlRJVFlfVFlQRV9VTktOT1dOEAASFgoSSURFTlRJVFlfVFlQ",
-            "RV9OT05FEAESFQoRSURFTlRJVFlfVFlQRV9TVUIQAhIVChFJREVOVElUWV9U",
-            "WVBFX0pXVBADQl1aQGdpdGh1Yi5jb20vYXNlcnRvLWRldi9nby1hdXRob3Jp",
-            "emVyL2FzZXJ0by9hdXRob3JpemVyL3YyL2FwaTthcGmqAhhBc2VydG8uQXV0",
-            "aG9yaXplci5WMi5BUEliBnByb3RvMw=="));
+            "LmF1dGhvcml6ZXIudjIuYXBpLklkZW50aXR5VHlwZSqJAQoMSWRlbnRpdHlU",
+            "eXBlEhkKFUlERU5USVRZX1RZUEVfVU5LTk9XThAAEhYKEklERU5USVRZX1RZ",
+            "UEVfTk9ORRABEhUKEUlERU5USVRZX1RZUEVfU1VCEAISFQoRSURFTlRJVFlf",
+            "VFlQRV9KV1QQAxIYChRJREVOVElUWV9UWVBFX01BTlVBTBAEQl1aQGdpdGh1",
+            "Yi5jb20vYXNlcnRvLWRldi9nby1hdXRob3JpemVyL2FzZXJ0by9hdXRob3Jp",
+            "emVyL3YyL2FwaTthcGmqAhhBc2VydG8uQXV0aG9yaXplci5WMi5BUEliBnBy",
+            "b3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Aserto.Authorizer.V2.API.IdentityType), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -63,6 +64,10 @@ namespace Aserto.Authorizer.V2.API {
     /// JWT, identity field contains a JWT access token.
     /// </summary>
     [pbr::OriginalName("IDENTITY_TYPE_JWT")] Jwt = 3,
+    /// <summary>
+    /// Manual, propagates thw identity field as-is, without validation, into the input object.
+    /// </summary>
+    [pbr::OriginalName("IDENTITY_TYPE_MANUAL")] Manual = 4,
   }
 
   #endregion

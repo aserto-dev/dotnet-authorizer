@@ -236,7 +236,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
   ///      };
   ///      license: {
   ///        name: "BSD 3-Clause License";
-  ///        url: "https://github.com/grpc-ecosystem/grpc-gateway/blob/main/LICENSE.txt";
+  ///        url: "https://github.com/grpc-ecosystem/grpc-gateway/blob/main/LICENSE";
   ///      };
   ///    };
   ///    schemes: HTTPS;
@@ -2704,7 +2704,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
   ///      };
   ///      license: {
   ///        name: "BSD 3-Clause License";
-  ///        url: "https://github.com/grpc-ecosystem/grpc-gateway/blob/main/LICENSE.txt";
+  ///        url: "https://github.com/grpc-ecosystem/grpc-gateway/blob/main/LICENSE";
   ///      };
   ///    };
   ///    ...
@@ -3417,7 +3417,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
   ///      ...
   ///      license: {
   ///        name: "BSD 3-Clause License";
-  ///        url: "https://github.com/grpc-ecosystem/grpc-gateway/blob/main/LICENSE.txt";
+  ///        url: "https://github.com/grpc-ecosystem/grpc-gateway/blob/main/LICENSE";
   ///      };
   ///      ...
   ///    };
