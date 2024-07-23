@@ -22,6 +22,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="../../build/aserto-brandmark-color.png" Pack="true" Visible="false" PackagePath=""/>
+    <None Include="build/aserto-brandmark-color.png" Pack="true" Visible="false" PackagePath=""/>
   </ItemGroup>
 </Project>

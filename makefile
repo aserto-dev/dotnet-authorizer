@@ -1,10 +1,10 @@
 SHELL           := $(shell which bash)
     
-NO_COLOR       := \033[0m
-OK_COLOR       := \033[32;01m
-ERR_COLOR      := \033[31;01m
-WARN_COLOR     := \033[36;01m
-ATTN_COLOR     := \033[33;01m
+NO_COLOR        := \033[0m
+OK_COLOR        := \033[32;01m
+ERR_COLOR       := \033[31;01m
+WARN_COLOR      := \033[36;01m
+ATTN_COLOR      := \033[33;01m
 
 GOOS            := $(shell go env GOOS)
 GOARCH          := $(shell go env GOARCH)
@@ -29,7 +29,7 @@ PROTO_REPO      := "pb-${PROJECT}"
 
 GIT_ORG         := "https://github.com/aserto-dev"
 
-RELEASE_TAG	    := $$(svu)
+RELEASE_TAG     := $$(svu)
 
 .PHONY: deps
 deps: info install-vault install-buf install-svu
@@ -38,12 +38,12 @@ deps: info install-vault install-buf install-svu
 .PHONY: build
 build:
 	@echo -e "$(ATTN_COLOR)==> $@ $(NO_COLOR)"
-	@dotnet build --configuration debug Aserto.Directory.Client.Grpc.csproj
+	@dotnet build --configuration debug Aserto.Authorizer.Client.Grpc.csproj
 
 .PHONY: build-release
 build-release:
 	@echo -e "$(ATTN_COLOR)==> $@ $(NO_COLOR)"
-	@dotnet build --configuration release Aserto.Directory.Client.Grpc.csproj
+	@dotnet build --configuration release Aserto.Authorizer.Client.Grpc.csproj
 
 .PHONY: publish
 publish:
@@ -72,15 +72,18 @@ buf-generate-dev:
 .PHONY: info
 info:
 	@echo -e "$(ATTN_COLOR)==> $@ $(NO_COLOR)"
-	@echo "GOOS:        ${GOOS}"
-	@echo "GOARCH:      ${GOARCH}"
-	@echo "BIN_DIR:     ${BIN_DIR}"
-	@echo "EXT_DIR:     ${EXT_DIR}"
-	@echo "EXT_BIN_DIR: ${EXT_BIN_DIR}"
-	@echo "EXT_TMP_DIR: ${EXT_TMP_DIR}"
-	@echo "RELEASE_TAG: ${RELEASE_TAG}"
-	@echo "BUF_REPO:    ${BUF_REPO}"
-	@echo "BUF_LATEST:  ${BUF_LATEST}"
+	@echo "PROJECT:       ${PROJECT}"
+	@echo "GOOS:          ${GOOS}"
+	@echo "GOARCH:        ${GOARCH}"
+	@echo "BIN_DIR:       ${BIN_DIR}"
+	@echo "EXT_DIR:       ${EXT_DIR}"
+	@echo "EXT_BIN_DIR:   ${EXT_BIN_DIR}"
+	@echo "EXT_TMP_DIR:   ${EXT_TMP_DIR}"
+	@echo "RELEASE_TAG:   ${RELEASE_TAG}"
+	@echo "BUF_REPO:      ${BUF_REPO}"
+	@echo "BUF_LATEST:    ${BUF_LATEST}"
+	@echo "BUF_DEV_IMAGE: ${BUF_DEV_IMAGE}"
+	@echo "PROTO_REPO:    ${PROTO_REPO}"
 
 .PHONY: install-vault
 install-vault: ${EXT_BIN_DIR} ${EXT_TMP_DIR}

@@ -1,5 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <Import Project="build\common.props" />
+
   <PropertyGroup>
     <AssemblyTitle>Aserto.Authorizer.V2.Client.Grpc</AssemblyTitle>
     <AssemblyName>Aserto.Authorizer.V2.Client.Grpc</AssemblyName>
@@ -10,8 +11,9 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
+
   <PropertyGroup>
-    <TargetFrameworks>net6.0;net7;net8</TargetFrameworks>
+    <TargetFrameworks>net6;net7;net8</TargetFrameworks>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -23,21 +25,20 @@
     <!-- Generate the nupkg package on Release build -->
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
-
-
+  
   <ItemGroup>
     <PackageReference Include="Google.Protobuf" Version="3.27.2" />
     <PackageReference Include="Grpc.Net.Client" Version="2.63.0" />
     <PackageReference Include="MinVer" PrivateAssets="All" Version="3.1.0" />
   </ItemGroup>
-
+  
   <PropertyGroup>
     <UseCommonOutputDirectory>true</UseCommonOutputDirectory>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
   </PropertyGroup>
-
   <ItemGroup>
     <Compile Include="src/**/*.cs" />
     <None Include="README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
+
 </Project>
