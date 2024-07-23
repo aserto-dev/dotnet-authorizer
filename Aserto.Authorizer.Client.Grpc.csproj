@@ -1,5 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  <Import Project="..\..\build\common.props" />
+  <Import Project="build\common.props" />
+
   <PropertyGroup>
     <AssemblyTitle>Aserto.Authorizer.V2.Client.Grpc</AssemblyTitle>
     <AssemblyName>Aserto.Authorizer.V2.Client.Grpc</AssemblyName>
@@ -7,10 +8,12 @@
     <Product>Aserto.Authorizer.V2.Client.Grpc</Product>
     <Description>Protocol buffers and gRPC client for Aserto Authorizer V2.</Description>
     <PackageTags>aserto;authorization;opa;open policy agent; aserto authorizer</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
+
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp3.1;net6.0</TargetFrameworks>
+    <TargetFrameworks>net6;net7;net8</TargetFrameworks>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -22,10 +25,20 @@
     <!-- Generate the nupkg package on Release build -->
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
-
+  
   <ItemGroup>
-    <PackageReference Include="Google.Api.CommonProtos" Version="2.3.0" />
-    <PackageReference Include="Grpc.Core" Version="2.38.1" />
-    <PackageReference Include="MinVer" PrivateAssets="All" Version="2.5.0" />
+    <PackageReference Include="Google.Protobuf" Version="3.27.2" />
+    <PackageReference Include="Grpc.Net.Client" Version="2.63.0" />
+    <PackageReference Include="MinVer" PrivateAssets="All" Version="3.1.0" />
   </ItemGroup>
+  
+  <PropertyGroup>
+    <UseCommonOutputDirectory>true</UseCommonOutputDirectory>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="src/**/*.cs" />
+    <None Include="README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
 </Project>

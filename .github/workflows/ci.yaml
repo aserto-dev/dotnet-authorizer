@@ -18,93 +18,96 @@ on:
 
 env:
   VAULT_ADDR: https://vault.eng.aserto.com/
-  GO_VERSION: "1.17"
+  BUF_REPO: "buf.build/aserto-dev/authorizer"
 
+  BUF_VERSION: "1.34.0"
+  BUF_BETA_SUPPRESS_WARNINGS: 1
+  
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Info
+    - 
+      name: Info
       run: echo "Using proto ${{ github.event.inputs.proto_ref }} with sha ${{ github.event.inputs.proto_sha }}"
-
-    - name: Read Configuration
-      uses: hashicorp/vault-action@v2.1.0
+    - 
+      name: Checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - 
+      name: Read Configuration
+      uses: hashicorp/vault-action@v3
       id: vault
       with:
         url: ${{ env.VAULT_ADDR }}
         token: ${{ secrets.VAULT_TOKEN }}
         secrets: |
-          kv/data/github  "SSH_PRIVATE_KEY"     | SSH_PRIVATE_KEY;
-          kv/data/buf.build "ASERTO_BUF_TOKEN"  | ASERTO_BUF_TOKEN;
-
-    - name: Checkout
-      uses: actions/checkout@v2
+          kv/data/github    "USERNAME"          | GH_USERNAME;
+          kv/data/github    "READ_WRITE_TOKEN"  | GH_TOKEN;
+          kv/data/buf.build "ASERTO_BUF_USER"   | BUF_USER;
+          kv/data/buf.build "ASERTO_BUF_TOKEN"  | BUF_TOKEN;
+    - 
+      name: Setup buf
+      uses: bufbuild/buf-setup-action@v1
       with:
-        fetch-depth: 0
-
-    - name: Setup Go
-      uses: actions/setup-go@v2
-      with:
-        go-version: ${{ env.GO_VERSION }}
-
-    - name: Install dependencies
+        version: ${{ env.BUF_VERSION }}
+        github_token: ${{ github.token }}
+        buf_user: ${{ steps.vault.outputs.BUF_USER }}
+        buf_api_token: ${{ steps.vault.outputs.BUF_TOKEN}}
+    - 
+      name: Delete generated code
       run: |
-          mkdir -p $HOME/.ssh
-          umask 0077 && echo -e "${SSH_PRIVATE_KEY}" > $HOME/.ssh/id_rsa
-          ssh-keyscan github.com >> $HOME/.ssh/known_hosts
-
-          git config --global url."git@github.com:".insteadOf https://github.com/
-          git config --global user.email "github-bot@aserto.com"
-          git config --global user.name "Aserto Bot"
-          
-          eval `ssh-agent`
-          ssh-add $HOME/.ssh/id_rsa
-
-          go run mage.go deps
-
-    - name: Clean generated code
-      run: go run mage.go clean
-
-    - name: Setup Buf Registry
-      run: echo -e "machine buf.build\npassword ${ASERTO_BUF_TOKEN}" >> ~/.netrc
-
-    - name: Generate
-      run: go run mage.go generate
-
-    - name: Build
-      run: go run mage.go build
-
+        rm -rf ./src
+        mkdir -p ./src
+    - 
+      name: Get latest version tag from Buf Registry
+      id: buf-latest
+      run: |
+        echo "VERSION=$(buf beta registry label list ${BUF_REPO} --format json --reverse | jq -r '.results[0].name')" >> "$GITHUB_OUTPUT"
+    - 
+      name: Buf Generate
+      run: |
+        echo "${{ env.BUF_REPO }}:${{ steps.buf-latest.outputs.VERSION }}"
+        buf generate --include-imports ${{ env.BUF_REPO }}:${{ steps.buf-latest.outputs.VERSION }}
     - name: Commit changes
       if: github.event_name == 'workflow_dispatch'
-      uses: EndBug/add-and-commit@v7
+      uses: EndBug/add-and-commit@v9
       with:
         default_author: github_actions
         add: 'src'
-  
+
   release:
     runs-on: ubuntu-latest
     needs: build
     if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v')
     name: Release Nuget package for Aserto.Client
     steps:
-      - name: Read Configuration
-        uses: hashicorp/vault-action@v2.1.0
+      - 
+        name: Read Configuration
+        uses: hashicorp/vault-action@v3
         id: vault
         with:
           url: ${{ env.VAULT_ADDR }}
           token: ${{ secrets.VAULT_TOKEN }}
           secrets: |
             kv/data/nuget  "NUGET_API_KEY"     | NUGET_API_KEY;
-      - uses: actions/checkout@v2
-
-      - name: Setup .NET Core
-        uses: actions/setup-dotnet@v1
+      - 
+        uses: actions/checkout@v4
         with:
-          dotnet-version: 6.x
-
-      - name: Build
-        run: dotnet build --configuration Release src/Aserto.Authorizer.V2.Client.Grpc/Aserto.Authorizer.V2.Client.Grpc.csproj
-
-      - name: Publish to NuGet.org
+          fetch-depth: 0
+      - 
+        name: Setup .NET Core
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: |
+            6.x
+            7.x
+            8.x
+      - 
+        name: Build
+        run: dotnet build --configuration release Aserto.Authorizer.Client.Grpc.csproj
+      - 
+        name: Publish to NuGet.org
         run: |
-          dotnet nuget push ./src/Aserto.Authorizer.V2.Client.Grpc/bin/Release/*.nupkg --api-key ${NUGET_API_KEY} --source https://api.nuget.org/v3/index.json
+          dotnet nuget push ./bin/release/*.nupkg --api-key ${NUGET_API_KEY} --source https://api.nuget.org/v3/index.json
