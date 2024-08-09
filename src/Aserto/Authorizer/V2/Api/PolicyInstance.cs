@@ -25,15 +25,15 @@ namespace Aserto.Authorizer.V2.Api {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "Ci5hc2VydG8vYXV0aG9yaXplci92Mi9hcGkvcG9saWN5X2luc3RhbmNlLnBy",
-            "b3RvEhhhc2VydG8uYXV0aG9yaXplci52Mi5hcGkiSwoOUG9saWN5SW5zdGFu",
-            "Y2USEgoEbmFtZRgBIAEoCVIEbmFtZRIlCg5pbnN0YW5jZV9sYWJlbBgCIAEo",
-            "CVINaW5zdGFuY2VMYWJlbEL5AQocY29tLmFzZXJ0by5hdXRob3JpemVyLnYy",
-            "LmFwaUITUG9saWN5SW5zdGFuY2VQcm90b1ABWkBnaXRodWIuY29tL2FzZXJ0",
-            "by1kZXYvZ28tYXV0aG9yaXplci9hc2VydG8vYXV0aG9yaXplci92Mi9hcGk7",
-            "YXBpogIEQUFWQaoCGEFzZXJ0by5BdXRob3JpemVyLlYyLkFwacoCGEFzZXJ0",
-            "b1xBdXRob3JpemVyXFYyXEFwaeICJEFzZXJ0b1xBdXRob3JpemVyXFYyXEFw",
-            "aVxHUEJNZXRhZGF0YeoCG0FzZXJ0bzo6QXV0aG9yaXplcjo6VjI6OkFwaWIG",
-            "cHJvdG8z"));
+            "b3RvEhhhc2VydG8uYXV0aG9yaXplci52Mi5hcGkiTwoOUG9saWN5SW5zdGFu",
+            "Y2USEgoEbmFtZRgBIAEoCVIEbmFtZRIpCg5pbnN0YW5jZV9sYWJlbBgCIAEo",
+            "CUICGAFSDWluc3RhbmNlTGFiZWxC+QEKHGNvbS5hc2VydG8uYXV0aG9yaXpl",
+            "ci52Mi5hcGlCE1BvbGljeUluc3RhbmNlUHJvdG9QAVpAZ2l0aHViLmNvbS9h",
+            "c2VydG8tZGV2L2dvLWF1dGhvcml6ZXIvYXNlcnRvL2F1dGhvcml6ZXIvdjIv",
+            "YXBpO2FwaaICBEFBVkGqAhhBc2VydG8uQXV0aG9yaXplci5WMi5BcGnKAhhB",
+            "c2VydG9cQXV0aG9yaXplclxWMlxBcGniAiRBc2VydG9cQXV0aG9yaXplclxW",
+            "MlxBcGlcR1BCTWV0YWRhdGHqAhtBc2VydG86OkF1dGhvcml6ZXI6OlYyOjpB",
+            "cGliBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -111,6 +111,7 @@ namespace Aserto.Authorizer.V2.Api {
     /// <summary>
     /// label identifying the instance of the policy
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string InstanceLabel {
