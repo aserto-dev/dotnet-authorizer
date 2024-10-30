@@ -1,3 +1,4 @@
+---
 name: ci
 
 on:
@@ -22,60 +23,67 @@ env:
 
   BUF_VERSION: "1.34.0"
   BUF_BETA_SUPPRESS_WARNINGS: 1
-  
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - 
-      name: Info
-      run: echo "Using proto ${{ github.event.inputs.proto_ref }} with sha ${{ github.event.inputs.proto_sha }}"
-    - 
-      name: Checkout
-      uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
-    - 
-      name: Read Configuration
-      uses: hashicorp/vault-action@v3
-      id: vault
-      with:
-        url: ${{ env.VAULT_ADDR }}
-        token: ${{ secrets.VAULT_TOKEN }}
-        secrets: |
-          kv/data/github    "USERNAME"          | GH_USERNAME;
-          kv/data/github    "READ_WRITE_TOKEN"  | GH_TOKEN;
-          kv/data/buf.build "ASERTO_BUF_USER"   | BUF_USER;
-          kv/data/buf.build "ASERTO_BUF_TOKEN"  | BUF_TOKEN;
-    - 
-      name: Setup buf
-      uses: bufbuild/buf-setup-action@v1
-      with:
-        version: ${{ env.BUF_VERSION }}
-        github_token: ${{ github.token }}
-        buf_user: ${{ steps.vault.outputs.BUF_USER }}
-        buf_api_token: ${{ steps.vault.outputs.BUF_TOKEN}}
-    - 
-      name: Delete generated code
-      run: |
-        rm -rf ./src
-        mkdir -p ./src
-    - 
-      name: Get latest version tag from Buf Registry
-      id: buf-latest
-      run: |
-        echo "VERSION=$(buf beta registry label list ${BUF_REPO} --format json --reverse | jq -r '.results[0].name')" >> "$GITHUB_OUTPUT"
-    - 
-      name: Buf Generate
-      run: |
-        echo "${{ env.BUF_REPO }}:${{ steps.buf-latest.outputs.VERSION }}"
-        buf generate --include-imports ${{ env.BUF_REPO }}:${{ steps.buf-latest.outputs.VERSION }}
-    - name: Commit changes
-      if: github.event_name == 'workflow_dispatch'
-      uses: EndBug/add-and-commit@v9
-      with:
-        default_author: github_actions
-        add: 'src'
+      -
+        name: Info
+        run: echo "Using proto ${{ github.event.inputs.proto_ref }} with sha ${{ github.event.inputs.proto_sha }}"
+      -
+        uses: actions/create-github-app-token@v1
+        id: app-token
+        with:
+          app-id: ${{ vars.CODEGEN_APP_ID }}
+          private-key: ${{ secrets.CODEGEN_APP_KEY }}
+      -
+        name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ steps.app-token.outputs.token }}
+      -
+        name: Read Configuration
+        uses: hashicorp/vault-action@v3
+        id: vault
+        with:
+          url: ${{ env.VAULT_ADDR }}
+          token: ${{ secrets.VAULT_TOKEN }}
+          secrets: |
+            kv/data/github    "USERNAME"          | GH_USERNAME;
+            kv/data/github    "READ_WRITE_TOKEN"  | GH_TOKEN;
+            kv/data/buf.build "ASERTO_BUF_USER"   | BUF_USER;
+            kv/data/buf.build "ASERTO_BUF_TOKEN"  | BUF_TOKEN;
+      -
+        name: Setup buf
+        uses: bufbuild/buf-setup-action@v1
+        with:
+          version: ${{ env.BUF_VERSION }}
+          github_token: ${{ github.token }}
+          buf_user: ${{ steps.vault.outputs.BUF_USER }}
+          buf_api_token: ${{ steps.vault.outputs.BUF_TOKEN}}
+      -
+        name: Delete generated code
+        run: |
+          rm -rf ./src
+          mkdir -p ./src
+      -
+        name: Get latest version tag from Buf Registry
+        id: buf-latest
+        run: |
+          echo "VERSION=$(buf beta registry label list ${BUF_REPO} --format json --reverse | jq -r '.results[0].name')" >> "$GITHUB_OUTPUT"
+      -
+        name: Buf Generate
+        run: |
+          echo "${{ env.BUF_REPO }}:${{ steps.buf-latest.outputs.VERSION }}"
+          buf generate --include-imports ${{ env.BUF_REPO }}:${{ steps.buf-latest.outputs.VERSION }}
+      - name: Commit changes
+        if: github.event_name == 'workflow_dispatch'
+        uses: EndBug/add-and-commit@v9
+        with:
+          default_author: github_actions
+          add: 'src'
 
   release:
     runs-on: ubuntu-latest
@@ -83,7 +91,7 @@ jobs:
     if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v')
     name: Release Nuget package for Aserto.Client
     steps:
-      - 
+      -
         name: Read Configuration
         uses: hashicorp/vault-action@v3
         id: vault
@@ -92,11 +100,11 @@ jobs:
           token: ${{ secrets.VAULT_TOKEN }}
           secrets: |
             kv/data/nuget  "NUGET_API_KEY"     | NUGET_API_KEY;
-      - 
+      -
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - 
+      -
         name: Setup .NET Core
         uses: actions/setup-dotnet@v4
         with:
@@ -104,10 +112,10 @@ jobs:
             6.x
             7.x
             8.x
-      - 
+      -
         name: Build
         run: dotnet build --configuration release Aserto.Authorizer.Client.Grpc.csproj
-      - 
+      -
         name: Publish to NuGet.org
         run: |
           dotnet nuget push ./bin/release/*.nupkg --api-key ${NUGET_API_KEY} --source https://api.nuget.org/v3/index.json
